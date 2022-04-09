@@ -1,0 +1,9 @@
+.modal {
+  z-index: 100;
+  width: 80vw;
+  background-color: #212121;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

@@ -1,16 +1,28 @@
 import { FC } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './Navbar.scss';
+import Modal from '../Modal/Modal.component';
+import ModalService from '../../services/ModalService';
+import HowToModal from '../Modal/HowToModal/HowToModal.component';
+import ModelRoot from '../Modal/ModalRoot/ModalRoot.component';
 
 const Navbar: FC = () => {
-
+  const showHowToModal: boolean = false;
+  const showSettingsModal: boolean = false;
+  const showStatsModal: boolean = false;
+  
+  const addModal = () => {
+    ModalService.open(HowToModal);
+  };
   return (
     <header>
       <div className="menuLeft">
-        <button><FontAwesomeIcon icon={['far', 'question-circle']}/></button>       
+        <button onClick={ addModal }><FontAwesomeIcon icon={['far', 'question-circle']}/></button> 
       </div>
-      <div className="title">Corgle</div>
-      <div className="menuRight">MenuRight</div>
+      <div className="title">Corgle
+      </div>
+      <div className="menuRight">MenuRight
+      </div>
     </header>
   );
 }
