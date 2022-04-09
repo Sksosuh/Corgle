@@ -1,6 +1,7 @@
 import { FC } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './Navbar.scss';
+import { configure } from '@testing-library/react';
 
 const Navbar: FC = () => {
 
@@ -10,7 +11,10 @@ const Navbar: FC = () => {
         <button><FontAwesomeIcon icon={['far', 'question-circle']}/></button>       
       </div>
       <div className="title">Corgle</div>
-      <div className="menuRight">MenuRight</div>
+      <div className="menuRight">
+        <button><FontAwesomeIcon icon={['far', 'chart-bar']}/></button> 
+        <button><FontAwesomeIcon icon={'cog'}/></button> 
+      </div>
     </header>
   );
 }
