@@ -1,0 +1,19 @@
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  padding: 0 16px;
+  // height: var(--header-height);
+  // color: var(--color-tone-1);
+  // border-bottom: 1px solid var(--color-tone-4);
+  .menuLeft {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    width: 70px;
+    justify-content: flex-start;
+  }
+}
