@@ -7,30 +7,36 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 import { far, faQuestionCircle, faChartBar } from '@fortawesome/free-regular-svg-icons';
 import { faCog } from '@fortawesome/free-solid-svg-icons';
 import ModalRoot from './components/Modal/ModalRoot/ModalRoot.component';
+import GameRow from './components/GameRow/GameRow.component';
+import { State } from './components/Tile/State.type';
 
 library.add(faCog, far, faQuestionCircle, faChartBar, faChartBar);
 
 
 function App() {
+  const c: State = "correct";
+  const lettersStates = [
+    {letter: "d", state: c},
+    {letter: "o", state: c},
+    {letter: "d", state: c},
+    {letter: "g", state: c},
+    {letter: "e", state: c},
+  ];
+  const empty = [
+    {letter: ""},
+    {letter: ""},
+    {letter: ""},
+    {letter: ""},
+    {letter: ""},
+  ]
+  
   return (
-    <div className="App">
+    <div className='App'>
       <Navbar></Navbar>
       <ModalRoot/>
-      <BoardLayout></BoardLayout>
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className='game'>
+        <BoardLayout></BoardLayout>
+      </div>
     </div>
   );
 }

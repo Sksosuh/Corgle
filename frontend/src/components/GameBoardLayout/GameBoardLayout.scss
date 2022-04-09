@@ -1,6 +1,27 @@
-.rectangle
+.imgsContainer
 {
-  width: 350px;
+  display: flex;
+  flex-wrap: wrap;
+  //width: 350px;
+  flex-direction: row;
   height: 420px;
   background-color: white;
+  padding: 1rem;
+
+    .one {
+      background-color: red !important;
+      width: 50%;
+    }
+    .two {
+      background-color: blue !important;
+      width: 50%;
+    }
+    .three {
+      width: 50%;
+      background-color: green !important;
+    }
+    .four {
+      width: 50%;
+      background-color: yellow !important;
+    }
 }
