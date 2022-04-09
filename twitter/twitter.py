@@ -53,9 +53,12 @@ class Dog:
   def parse_media(self,media_keys,media):
     local_media = []
     for instance in media:
-      if instance.media_key in media_keys:
+      if instance.media_key in media_keys and instance.type == "photo":
         local_media.append(instance.url)
-
+  
+    if len(local_media) == 0:
+      raise ValueError("No media present or unsupported media type")
+    
     return local_media
 
 
@@ -102,7 +105,6 @@ while page_token != -1:
 
 with open(OUTPUT_JSON, "w") as f:
   json.dump(doggos, f, indent=4)
-
 
 
 
