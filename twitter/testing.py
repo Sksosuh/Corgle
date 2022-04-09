@@ -17,6 +17,23 @@ CorgleDB = [
 ]
 
 
-db.dogs.insert_many(CorgleDB)
+#db.dogs.insert_many(CorgleDB)
+
+#result = db.dogs.find()
+
+#for document in result:
+    #print("Dog Name: ", document["name"])
+    #print("Description: ", document["description"])
 
 
+#result = db.dogs.find()
+#record = next(result, None)
+#if record:
+    #print("Dog Name: ", record["name"])
+    #print("Description: ", record["description"])
+#record = next(result, None)
+#if record:
+    #print("Dog Name: ", record["name"])
+    #print("Description: ", record["description"])
+
+    
