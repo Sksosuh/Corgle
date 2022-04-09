@@ -11,8 +11,19 @@ API_KEYS = RESOURCE_PATH / "keys.json"
 OUTPUT_JSON = RESOURCE_PATH / "output.json"
 TWITTER_USERNAME = "dog_rates"
 
-class Dog:
+#Dog class member variable documentation:
 
+#id - unique tweet id pulled from twitter, can be used to access more info via tweepy
+#name - dog's name to be guessed
+#description - provided text to the user to determine dog's name
+#source link - url referencing the original tweet
+#donation link - if present, link to any donation for the dog
+#media links - list of pictures attached to the tweet
+#alternate texts - list of alternate texts, matched to each picture by the index
+#rating value - current rating value of the dog made by users
+#rating count - number of users that have ratted; use for averaging the rating score
+
+class Dog:
   def __init__(self,tweet,media):
     self.id = tweet.id
     self.name, self.description, self.source_link, self.donation_link = self.parse_text(tweet.text)
@@ -114,6 +125,3 @@ random.shuffle(doggos)
 #Write our doggos to a json file to be loaded into the database
 with open(OUTPUT_JSON, "w") as f:
   json.dump(doggos, f, indent=4)
-
-
-
