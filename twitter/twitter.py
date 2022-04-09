@@ -13,8 +13,9 @@ TWITTER_USERNAME = "dog_rates"
 class Dog:
 
   def __init__(self,tweet,media):
+    self.id = tweet.id
     self.name, self.description, self.source_link, self.donation_link = self.parse_text(tweet.text)
-    self.media_links = self.parse_media(tweet.attachments["media_keys"],media)
+    self.media_links, self.alternate_texts = self.parse_media(tweet.attachments["media_keys"],media)
     self.rating_value = 0
     self.rating_count = 0
 
@@ -51,15 +52,16 @@ class Dog:
   #Media is given in a different batch not assigned to its tweet
   #Search through that batch to match media to tweets
   def parse_media(self,media_keys,media):
-    local_media = []
+    local_media, alternate_text = [], []
     for instance in media:
       if instance.media_key in media_keys and instance.type == "photo":
         local_media.append(instance.url)
+        alternate_text.append(instance.alt_text)
   
     if len(local_media) == 0:
       raise ValueError("No media present or unsupported media type")
     
-    return local_media
+    return local_media, alternate_text
 
 
 #Reading in our API Keys
