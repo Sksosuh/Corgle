@@ -3,10 +3,12 @@ import logo from './logo.svg';
 import './App.scss';
 import Navbar from './components/Navbar/Navbar.component';
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { far, faQuestionCircle } from '@fortawesome/free-regular-svg-icons';
+import { far, faQuestionCircle, faChartBar } from '@fortawesome/free-regular-svg-icons';
+import { faCog } from '@fortawesome/free-solid-svg-icons';
 import ModalRoot from './components/Modal/ModalRoot/ModalRoot.component';
 
-library.add(far, faQuestionCircle);
+library.add(faCog, far, faQuestionCircle, faChartBar, faChartBar);
+
 
 function App() {
   return (
