@@ -121,6 +121,9 @@ while page_token != -1:
 
 #Randomize now so database can grab in a random order
 random.shuffle(doggos)
+#Set new IDs for mongo DB compatibility
+for index, dog in enumerate(doggos):
+  dog["id"] = index
 
 #Write our doggos to a json file to be loaded into the database
 with open(OUTPUT_JSON, "w") as f:
