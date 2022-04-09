@@ -3,6 +3,7 @@ from pathlib import Path
 import tweepy
 import json
 import re
+import random
 
 #Constant Variables
 RESOURCE_PATH = Path(__file__).parent / "resources"
@@ -58,7 +59,9 @@ class Dog:
         local_media.append(instance.url)
         alternate_text.append(instance.alt_text)
   
-    if len(local_media) == 0:
+    #We have enough data where we don't need to take tweets
+    #without pictures or alternate text
+    if len(local_media) == 0 or None in alternate_text:
       raise ValueError("No media present or unsupported media type")
     
     return local_media, alternate_text
@@ -92,19 +95,23 @@ while page_token != -1:
   for tweet in dog_tweets.data:
     #Only looking for tweets with this format
     if "This is" == tweet.text[:7]:
+      #Don't save tweet if it doesn't fit our
+      #predefined format (nonrelevant tweets)
       try:
         doggo = Dog(tweet,dog_tweets.includes["media"])
         doggos += [doggo.__dict__]
       except Exception as exp:
-        print(exp)
-        print(tweet.text)
+        pass
 
   #Check and see if further requests can be made
   page_token = -1
   if "next_token" in dog_tweets.meta:
     page_token = dog_tweets.meta["next_token"]
 
+#Randomize now so database can grab in a random order
+random.shuffle(doggos)
 
+#Write our doggos to a json file to be loaded into the database
 with open(OUTPUT_JSON, "w") as f:
   json.dump(doggos, f, indent=4)
 
