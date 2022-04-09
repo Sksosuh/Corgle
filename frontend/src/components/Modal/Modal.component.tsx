@@ -4,7 +4,6 @@ import './Modal.scss';
 
 interface Props {
   isShowing: boolean
-  header: string
 }
 
 const Modal: FC<Props> = (Props) => {

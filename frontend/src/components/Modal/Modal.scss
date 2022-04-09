@@ -1,7 +1,9 @@
+@import "../../variables.scss";
+
 .modal {
   z-index: 100;
   width: 80vw;
-  background-color: #212121;
+  background-color: $bg-color;
   position: absolute;
   top: 50%;
   left: 50%;

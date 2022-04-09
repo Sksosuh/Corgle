@@ -3,25 +3,24 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './Navbar.scss';
 import ModalService from '../../services/ModalService';
 import HowToModal from '../Modal/HowToModal/HowToModal.component';
+import StatsModal from '../Modal/StatsModal/StatsModal.component';
+import SettingsModal from '../Modal/SettingsModal/SettingsModal.component';
 
 const Navbar: FC = () => {
 
-  const addModal = () => {
-    ModalService.open(HowToModal);
+  const addModal = (modalType: FC<any>) => {
+    ModalService.open(modalType);
   };
   return (
     <header>
       <div className="menuLeft">
-        <button onClick={ addModal }><FontAwesomeIcon icon={['far', 'question-circle']}/></button> 
+        <button onClick={ () => addModal(HowToModal) }><FontAwesomeIcon icon={['far', 'question-circle']}/></button> 
       </div>
       <div className="title">Corgle
       </div>
-      <div className="menuRight">MenuRight
-      </div>
-      <div className="title">Corgle</div>
       <div className="menuRight">
-        <button><FontAwesomeIcon icon={['far', 'chart-bar']}/></button> 
-        <button><FontAwesomeIcon icon={'cog'}/></button> 
+        <button onClick={ () => addModal(StatsModal) }><FontAwesomeIcon icon={['far', 'chart-bar']}/></button> 
+        <button onClick={ () => addModal(SettingsModal) }><FontAwesomeIcon icon={'cog'}/></button> 
       </div>
     </header>
   );

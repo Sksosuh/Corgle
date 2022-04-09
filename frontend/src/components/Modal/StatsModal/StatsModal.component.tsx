@@ -7,16 +7,16 @@ interface Props {
   close: any
 }
 
-const HowToModal: FC<Props> = (Props) => {
+const StatsModal: FC<Props> = (Props) => {
   return (
     <div className='modal'>
       <Modal isShowing={Props.isShowing}>
-        <h2>How to Play</h2>
-        <p> This is a pararaph on how to play</p>
+        <h2>Stats</h2>
+        <p> This is a pararaph on stats</p>
         <button onClick={ Props.close }>Close Modal</button>
       </Modal>
     </div>
   );
 };
 
-export default HowToModal;
+export default StatsModal;

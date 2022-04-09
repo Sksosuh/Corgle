@@ -4,19 +4,20 @@ import Modal from '../Modal.component';
 
 interface Props {
   isShowing: boolean
+  header: string
   close: any
 }
 
-const HowToModal: FC<Props> = (Props) => {
+const SettingsModal: FC<Props> = (Props) => {
   return (
     <div className='modal'>
       <Modal isShowing={Props.isShowing}>
-        <h2>How to Play</h2>
-        <p> This is a pararaph on how to play</p>
+        <h2>Settings</h2>
+        <p> This is a pararaph on settings</p>
         <button onClick={ Props.close }>Close Modal</button>
       </Modal>
     </div>
   );
 };
 
-export default HowToModal;
+export default SettingsModal;
