@@ -13,9 +13,12 @@ const SettingsModal: FC<Props> = (Props) => {
   return (
     <div className='modal'>
       <Modal isShowing={Props.isShowing}>
-        <h2>Settings</h2>
+        <div className="header">
+          <div></div>
+          <h2>Settings</h2>
+          <button onClick={ Props.close }><FontAwesomeIcon icon={'times'}/></button>
+        </div>
         <p> Settings are currently a work in progress, please return at a later date!</p>
-        <button onClick={ Props.close }><FontAwesomeIcon icon={'times'}/></button>
       </Modal>
     </div>
   );

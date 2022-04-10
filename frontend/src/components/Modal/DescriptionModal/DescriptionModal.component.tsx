@@ -12,9 +12,12 @@ const DescriptionModal: FC<Props> = (Props) => {
   return (
     <div className='modal'>
       <Modal isShowing={Props.isShowing}>
-        <h2>Description</h2>
-        <p>Description goes here</p>
-        <button onClick={ Props.close }><FontAwesomeIcon icon={'times'}/></button>
+      <div className="header">
+          <div></div>
+          <h2>Description</h2>
+          <button onClick={ Props.close }><FontAwesomeIcon icon={'times'}/></button>
+        </div>
+          <p>Description goes here</p>
       </Modal>
     </div>
   );
