@@ -1,5 +1,47 @@
 [
     {
+        "dog_tag": -2,
+        "name": "Stanley",
+        "description": "He may seem innocent, but he loves engaging in mischievous activities. Don't take your eyes off him for a second!",
+        "source_link": "https://twitter.com/Mitchhit234/status/1513041235610583042",
+        "donation_link": null,
+        "media_links": [
+            "https://pbs.twimg.com/media/FP9moPiXsAYrAga.jpg",
+            "https://pbs.twimg.com/media/FP9mphbWYAUtSb-.jpg",
+            "https://pbs.twimg.com/media/FP9mwfoWQAEtPRm.jpg",
+            "https://pbs.twimg.com/media/FP9m8TFXsAYrMgH.jpg"
+        ],
+        "alternate_texts": [
+            "young grey and white yorkie poddle mix sits in the car with a puzzled look on his face",
+            "dog looking suspiciously guilty, proclaiming it was the cat who did it, not him",
+            "a very pleasant view of the dog sleeping, buck teeth and all",
+            "dog sitting watch in a bowl, looking out the window for potential intruders"
+        ],
+        "rating_value": 0,
+        "rating_count": 0
+    },
+    {
+        "dog_tag": -1,
+        "name": "Dodger",
+        "description": "Avid shoe fan. Always willing to steal a nice pair of sneakers. Doesn't really know his own strength, prefers to walk himself.",
+        "source_link": "https://twitter.com/Mitchhit234/status/1513041235610583042",
+        "donation_link": null,
+        "media_links": [
+            "https://pbs.twimg.com/media/FP9tfhgWYAAp141.jpg",
+            "https://pbs.twimg.com/media/FP9thOYWYAACCpp.jpg",
+            "https://pbs.twimg.com/media/FP9tjUDX0AEtk4m.jpg",
+            "https://pbs.twimg.com/media/FP9tjZtXIAA6sxK.jpg"
+        ],
+        "alternate_texts": [
+            "golden doodle sitting on his throne, with excellent posture I might add",
+            "wet dog who looks like he's expecting a treat for being a good boy",
+            "a very proud looking dog clothed positioned in front of his estate",
+            "one tired boy"
+        ],
+        "rating_value": 0,
+        "rating_count": 0
+    },
+    {
         "dog_tag": 0,
         "name": "Rufus",
         "description": "Every time he's a good boy, he gets a new toy. As you can see, this happens often.",
