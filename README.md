@@ -1,5 +1,3 @@
-# CORGLE
-
 ![Corgle Logo](corgle.png)
 
 ## Inspiration
