@@ -2,13 +2,16 @@ import { FC,} from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import Modal from '../Modal.component';
+import { dict } from '../../../Word';
 
 interface Props {
   isShowing: boolean
   close: any
+  description: string
 }
 
 const DescriptionModal: FC<Props> = (Props) => {
+
   return (
     <div className='modal'>
       <Modal isShowing={Props.isShowing}>
@@ -17,7 +20,7 @@ const DescriptionModal: FC<Props> = (Props) => {
           <h2>Description</h2>
           <button onClick={ Props.close }><FontAwesomeIcon icon={'times'}/></button>
         </div>
-          <p>Description goes here</p>
+          <p>{dict["description"]}</p>
       </Modal>
     </div>
   );

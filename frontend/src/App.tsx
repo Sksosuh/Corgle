@@ -104,7 +104,7 @@ function App() {
       <Navbar></Navbar>
       <ModalRoot/>
       <div className='game'>
-        <BoardLayout imgUrls={dailyDog.media_links} onChar={onChar} onDelete={onDelete} onEnter={onEnter} guesses={guesses} currentGuess={currentGuess} answer={dailyDog.name}/>
+        <BoardLayout imgUrls={dailyDog.media_links} onChar={onChar} onDelete={onDelete} onEnter={onEnter} guesses={guesses} currentGuess={currentGuess} answer={dailyDog.name} description={dailyDog.description}/>
       </div>
     </div>
   );

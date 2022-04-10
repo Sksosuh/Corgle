@@ -9,6 +9,7 @@ import './GameBoardLayout.scss';
 import { CharState } from "../GameRows/CharTypes.type";
 
 interface Props {
+  description: string
   imgUrls: string[]
 }
 const addModal = (modalType: FC<any>) => {
