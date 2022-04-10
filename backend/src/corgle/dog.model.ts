@@ -2,7 +2,7 @@ import * as mongoose from 'mongoose';
 
 
 export const DogSchema = new mongoose.Schema({
-    dogTag: { type: Number, required: true },
+    dog_tag: { type: Number, required: true },
     name: { type: String, required: true },
     description: { type: String, required: true},
     source_link: { type: String, required: true},
@@ -14,7 +14,7 @@ export const DogSchema = new mongoose.Schema({
 })
 
 export interface Dog extends mongoose.Document {
-    dogTag: number;
+    dog_tag: number;
     name: string;
     description: string;
     source_link: string;

@@ -19,7 +19,7 @@ export class DogsService{
         const result = await this.dogModel.find().exec();
         console.log(result);
         return result.map(dog => ({
-            dogTag: dog.dogTag,
+            dog_tag: dog.dog_tag,
             name: dog.name,
             description: dog.description,
             source_link: dog.source_link,
@@ -31,12 +31,12 @@ export class DogsService{
     }
 
     async getSingleDog(dogId: number){
-        const result = await this.dogModel.findOne({dogTag: dogId}).exec();
+        const result = await this.dogModel.findOne({dog_tag: dogId}).exec();
         console.log("getSingleDog: %s", dogId);
         console.log("dog: %s",result);
         console.log("insingleDog");
         return {
-            dogTag: result.dogTag,
+            dog_tag: result.dog_tag,
             name: result.name,
             description: result.description,
             source_link: result.source_link,
@@ -64,7 +64,7 @@ export class DogsService{
         const dog = await this.dogModel.findOne();
         console.log(dog);
         return {
-            dogTag: dog.dogTag,
+            dog_tag: dog.dog_tag,
             name: dog.name,
             description: dog.description,
             source_link: dog.source_link,
