@@ -1,6 +1,7 @@
-const ANSWER: string = "gabagool"; // correct word for the day
+const ANSWER: string = "dodger"; // correct word for the day
 
 export const isWinningWord = (word: string) => {
+  console.log(solution + "=" + word)
   return solution === word
 }
 
