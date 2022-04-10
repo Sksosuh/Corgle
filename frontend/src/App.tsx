@@ -9,8 +9,11 @@ import { faCog } from '@fortawesome/free-solid-svg-icons';
 import ModalRoot from './components/Modal/ModalRoot/ModalRoot.component';
 import GameRow from './components/GameRows/CurrentRow.component';
 import { State } from './components/Tile/State.type';
+import { getWordOfDay } from './Word';
+import cors from 'cors';
 
 library.add(faCog, far, faQuestionCircle, faChartBar, faChartBar);
+
 
 
 function App() {
@@ -34,11 +37,16 @@ function App() {
   const [currentGuess, setCurrentGuess] = useState("");
 
   const onChar = (value: string) => {
-    console.log(value);
+    var dict = getWordOfDay();
+    dict.then(name => {
+      console.log(name['name']);
+    })
     if (currentGuess.length < 5 && guesses.length < 6) {
       setCurrentGuess(`${currentGuess}${value}`);
     }
   };
+  
+  
 
   const onDelete = () => {
     setCurrentGuess(currentGuess.slice(0, -1));
