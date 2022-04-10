@@ -1,4 +1,4 @@
-import { FC } from "react";
+import { FC, useState } from "react";
 import "./Tile.scss";
 import { State } from './State.type';
 
@@ -15,7 +15,7 @@ const Tile: FC<Props> = (Props) => {
     </div>
   );
 
-}
+};
 
 Tile.defaultProps = {
   state: "empty"

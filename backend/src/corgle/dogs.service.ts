@@ -14,7 +14,6 @@ export class DogsService{
 
     async getDogs(){
         const result = await this.dogModel.find().exec();
-        console.log(result);
         return result.map(dog => ({
             id: dog.id,
             name: dog.name,
