@@ -1,6 +1,6 @@
 [
     {
-        "id": 0,
+        "dog_tag": 0,
         "name": "Graham",
         "description": "He\u2019s been eating @justfoodfordogs his whole life. It\u2019s helped him grow big and strong, as every small human protector should be.",
         "source_link": "https://t.co/K3mAaZhXDx",
@@ -12,16 +12,16 @@
             "https://pbs.twimg.com/media/E1h3nQHUcAEUImM.jpg"
         ],
         "alternate_texts": [
-            "tiny golden retriever/cocker spaniel mix, smiling in a plaid bandana that dwarfs him",
+            "tiny golden retriever/cocker spaniel mix, smiling in a pladog_tag bandana that dwarfs him",
             "he\u2019s older now and looking over a human baby. the baby is very clearly enjoying the company",
             "now they\u2019re all on a walk. graham is looking back over the stroller",
-            "graham wide-eyed and tongue out licking a bowl of just food for dog\u2019s chicken and white rice recipe"
+            "graham wdog_tage-eyed and tongue out licking a bowl of just food for dog\u2019s chicken and white rice recipe"
         ],
         "rating_value": 0,
         "rating_count": 0
     },
     {
-        "id": 1,
+        "dog_tag": 1,
         "name": "Troubadour",
         "description": "He\u2019s had @Trupanion medical insurance for over a decade. They\u2019ve helped him with every problem he\u2019s ever had, except his chilly toe beans. Luckily, he has socks for that.",
         "source_link": "https://t.co/bhIUWexlE6",
@@ -38,7 +38,7 @@
         "rating_count": 0
     },
     {
-        "id": 2,
+        "dog_tag": 2,
         "name": "Birdie",
         "description": "It\u2019s her first day at her new job. A little nervous after seeing there aren\u2019t any cattle to herd. Thought she was pretty clear about her strengths during the interview.",
         "source_link": "https://t.co/mprmEGpeD6",
@@ -53,7 +53,7 @@
         "rating_count": 0
     },
     {
-        "id": 3,
+        "dog_tag": 3,
         "name": "Albie",
         "description": "He understands that some people have bad angles but he simply can't relate.",
         "source_link": "https://t.co/rz4wzsnNas",
@@ -70,7 +70,7 @@
         "rating_count": 0
     },
     {
-        "id": 4,
+        "dog_tag": 4,
         "name": "Ruby",
         "description": "She was not tall enough to go on the Ferris wheel but her human made sure she got the full amusement park experience anyway.",
         "source_link": "https://t.co/0IGk4rmwOu",
@@ -85,22 +85,22 @@
         "rating_count": 0
     },
     {
-        "id": 5,
+        "dog_tag": 5,
         "name": "Teddy",
-        "description": "He wants to know if you come to this sidewalk often. Pretty good on leash if you need someone to walk you home.",
+        "description": "He wants to know if you come to this sdog_tagewalk often. Pretty good on leash if you need someone to walk you home.",
         "source_link": "https://t.co/wg9KRJcb14",
         "donation_link": null,
         "media_links": [
             "https://pbs.twimg.com/media/E1OgDOTVoAAVqRw.jpg"
         ],
         "alternate_texts": [
-            "golden retriever puppy sitting on the side of the street with his little arm propped up on the curb. he is very obviously flirting with you"
+            "golden retriever puppy sitting on the sdog_tage of the street with his little arm propped up on the curb. he is very obviously flirting with you"
         ],
         "rating_value": 0,
         "rating_count": 0
     },
     {
-        "id": 6,
+        "dog_tag": 6,
         "name": "Bear",
         "description": "She can hear a butterfly burp from half a mile away.",
         "source_link": "https://t.co/IInp9AKS4U",
@@ -109,13 +109,13 @@
             "https://pbs.twimg.com/media/E3Zixb6UYAQug8o.jpg"
         ],
         "alternate_texts": [
-            "little black puppy, maybe a chihuahua/lab mix, lying down on someone\u2019s lap. their eyes are open wide and they\u2019re stretching out their front legs. the ears are massive. she slightly resembles a fruit bat"
+            "little black puppy, maybe a chihuahua/lab mix, lying down on someone\u2019s lap. their eyes are open wdog_tage and they\u2019re stretching out their front legs. the ears are massive. she slightly resembles a fruit bat"
         ],
         "rating_value": 0,
         "rating_count": 0
     },
     {
-        "id": 7,
+        "dog_tag": 7,
         "name": "Huxley",
         "description": "He was just promoted to Senior Branch Manager. Spends his days doing quality control for his territory. It\u2019s risky business, which is why he has @Trupanion to keep him healthy.",
         "source_link": "https://t.co/cHG6dbH7sY",
@@ -136,9 +136,9 @@
         "rating_count": 0
     },
     {
-        "id": 8,
+        "dog_tag": 8,
         "name": "Gunner",
-        "description": "He fell down the stairs. Not sure who put them there or why elevation changes are necessary in the first place. We paid for his surgery to fix his broken leg, and he has his big t-rex to comfort him.",
+        "description": "He fell down the stairs. Not sure who put them there or why elevation changes are necessary in the first place. We padog_tag for his surgery to fix his broken leg, and he has his big t-rex to comfort him.",
         "source_link": "https://t.co/qWLCFgETjM",
         "donation_link": null,
         "media_links": [
@@ -155,7 +155,7 @@
         "rating_count": 0
     },
     {
-        "id": 9,
+        "dog_tag": 9,
         "name": "Annie",
         "description": "She was recently hit by a car and had surgery for her broken pelvis and broken femur. Fortunately she\u2019s doing much better now and hopes to get back to her very important work on her family\u2019s ranch soon. We\u2019ve covered the remaining cost of her procedure.",
         "source_link": "https://t.co/WFW2HnWY2M",
@@ -176,7 +176,7 @@
         "rating_count": 0
     },
     {
-        "id": 10,
+        "dog_tag": 10,
         "name": "Huxley",
         "description": "He hopes you had a good day, but if not, he\u2019s conveniently right here and an excellent listener.",
         "source_link": "https://t.co/WeAEdJVGIt",
@@ -185,13 +185,13 @@
             "https://pbs.twimg.com/media/FAfgd0eVcAAjtdM.jpg"
         ],
         "alternate_texts": [
-            "golden retriever standing and resting his chin on a wood table. his front paws are also resting on it, almost like a hug. the sun is at a low angle and hits his eyes and golden fur perfectly. his eyes are also open wide, almost concerned but full of love"
+            "golden retriever standing and resting his chin on a wood table. his front paws are also resting on it, almost like a hug. the sun is at a low angle and hits his eyes and golden fur perfectly. his eyes are also open wdog_tage, almost concerned but full of love"
         ],
         "rating_value": 0,
         "rating_count": 0
     },
     {
-        "id": 11,
+        "dog_tag": 11,
         "name": "Scooter",
         "description": "She loves to go camping as long as you make sure she is very cozy.",
         "source_link": "https://t.co/hLRlRc8TL7",
@@ -200,13 +200,13 @@
             "https://pbs.twimg.com/media/FKSdWOeVIAQAev9.jpg"
         ],
         "alternate_texts": [
-            "little old lady dog, probably a chiweenie, sitting on an outside chair. she is next to a camper and it\u2019s clear she has set up camp here for the night. she is bundled in a fuzzy hat and a big blue jacket"
+            "little old lady dog, probably a chiweenie, sitting on an outsdog_tage chair. she is next to a camper and it\u2019s clear she has set up camp here for the night. she is bundled in a fuzzy hat and a big blue jacket"
         ],
         "rating_value": 0,
         "rating_count": 0
     },
     {
-        "id": 12,
+        "dog_tag": 12,
         "name": "Daenerys",
         "description": "She\u2019s currently available through @AustinDogRescue. She loves sunshine and sprinklers, and yes, she does have a few dragon friends she\u2019ll introduce you to if you\u2019re lucky. You can apply to adopt Dany below.",
         "source_link": "https://t.co/tZWEC28gQW",
@@ -223,9 +223,9 @@
         "rating_count": 0
     },
     {
-        "id": 13,
+        "dog_tag": 13,
         "name": "Tobias",
-        "description": "He and his comfort dog friends visited Surfside, FL this week. They brought their \u201cplease pet me\u201d vests and handed out mini stuffed comfort dogs, so first responders and families who lost loved ones can continue to receive hugs whenever they need.",
+        "description": "He and his comfort dog friends visited Surfsdog_tage, FL this week. They brought their \u201cplease pet me\u201d vests and handed out mini stuffed comfort dogs, so first responders and families who lost loved ones can continue to receive hugs whenever they need.",
         "source_link": "https://t.co/XlRGlvsoPy",
         "donation_link": null,
         "media_links": [
@@ -244,7 +244,7 @@
         "rating_count": 0
     },
     {
-        "id": 14,
+        "dog_tag": 14,
         "name": "Kevin",
         "description": "He\u2019s an aspiring astronaut. Always brings his stuffed bear on training missions.",
         "source_link": "https://t.co/daNQTsSlDD",
@@ -265,9 +265,9 @@
         "rating_count": 0
     },
     {
-        "id": 15,
+        "dog_tag": 15,
         "name": "Zena",
-        "description": "She definitely mentioned she did not want a bath. You must\u2019ve not heard her.",
+        "description": "She definitely mentioned she ddog_tag not want a bath. You must\u2019ve not heard her.",
         "source_link": "https://t.co/awVbH6SQLC",
         "donation_link": null,
         "media_links": [
@@ -280,9 +280,9 @@
         "rating_count": 0
     },
     {
-        "id": 16,
+        "dog_tag": 16,
         "name": "Juniper",
-        "description": "Because of daylight savings, she had to play fetch in the dark. The light was low and the stakes were high. She jumped for her ball, landed awkwardly and broke her leg. We\u2019ve paid for her surgery and support her movement to end daylight savings for good.",
+        "description": "Because of daylight savings, she had to play fetch in the dark. The light was low and the stakes were high. She jumped for her ball, landed awkwardly and broke her leg. We\u2019ve padog_tag for her surgery and support her movement to end daylight savings for good.",
         "source_link": "https://t.co/3S3br4wYry",
         "donation_link": null,
         "media_links": [
@@ -297,7 +297,7 @@
         "rating_count": 0
     },
     {
-        "id": 17,
+        "dog_tag": 17,
         "name": "Betty and Rhett",
         "description": "Rhett just wanted ONE toy to play with, but Betty got to them first. She always does this.",
         "source_link": "https://t.co/W3fNpTTkGM",
@@ -312,7 +312,7 @@
         "rating_count": 0
     },
     {
-        "id": 18,
+        "dog_tag": 18,
         "name": "Bilbo",
         "description": "Every time he visits his cousins in the highlands, he gets self conscious that his horns haven't grown in yet. They\u2019re always nice about it, though.",
         "source_link": "https://t.co/GbJmDVWXoF",
@@ -324,16 +324,16 @@
         ],
         "alternate_texts": [
             "golden cocker spaniel sitting in the drivers seat of a car. he looks nervous",
-            "he\u2019s now outside on the other side of a fence from three massive highland cattle. they are looking down at him",
+            "he\u2019s now outsdog_tage on the other sdog_tage of a fence from three massive highland cattle. they are looking down at him",
             "he\u2019s back in the car with his head down, resting against the steering wheel. he looks defeated"
         ],
         "rating_value": 0,
         "rating_count": 0
     },
     {
-        "id": 19,
+        "dog_tag": 19,
         "name": "Lola",
-        "description": "She was recently diagnosed with bone cancer in her leg. Thankfully, it hadn\u2019t spread far and an amputation saved her. We\u2019ve covered the remaining cost of her care. Please consider getting pet health insurance. It\u2019s best to be puppared.",
+        "description": "She was recently diagnosed with bone cancer in her leg. Thankfully, it hadn\u2019t spread far and an amputation saved her. We\u2019ve covered the remaining cost of her care. Please consdog_tager getting pet health insurance. It\u2019s best to be puppared.",
         "source_link": "https://t.co/GFcaTEgTBa",
         "donation_link": null,
         "media_links": [
@@ -350,7 +350,7 @@
         "rating_count": 0
     },
     {
-        "id": 20,
+        "dog_tag": 20,
         "name": "Mogwai",
         "description": "She\u2019s been with @kcpetproject since last June. Her foster home discovered she really likes pajamas, so all potential adopters please jot that down. You can learn all about Mogwai by clicking the link below.",
         "source_link": "https://t.co/0IxbSeTyp7",
@@ -367,7 +367,7 @@
         "rating_count": 0
     },
     {
-        "id": 21,
+        "dog_tag": 21,
         "name": "Maggie",
         "description": "Playing in the snow was her favorite thing in the world, and she got to do it one final time thanks to @SLCOParksandRec. Their staff shaved extra ice, loaded it into bins, and gave it to her family, making Maggie\u2019s last day very very special.",
         "source_link": "https://t.co/wdvR0PIsVa",
@@ -379,14 +379,14 @@
         ],
         "alternate_texts": [
             "screenshot of a FB post from maggie\u2019s human\u2019s asking if anyone has a spare shaved ice machine. it says maggie is dying of cancer and they want her to roll around in the snow one more time before she passes",
-            "a big pile of snow outside the parks and rec office with a sign that says \u201cmaggie\u2019s snow\u201d",
+            "a big pile of snow outsdog_tage the parks and rec office with a sign that says \u201cmaggie\u2019s snow\u201d",
             "maggie lying in the snow in her backyard with her humans"
         ],
         "rating_value": 0,
         "rating_count": 0
     },
     {
-        "id": 22,
+        "dog_tag": 22,
         "name": "Gus",
         "description": "And these are his four favorite teeth. Just brushed them this morning. You can even smell his breath if you want.",
         "source_link": "https://t.co/A2BFzPKBce",
@@ -395,13 +395,13 @@
             "https://pbs.twimg.com/media/FNrKtp7VIAEZaD7.jpg"
         ],
         "alternate_texts": [
-            "An old black and white dog is inside a house sitting on a hardwood floor. He is looking right at the camera and smiling. He only has 4 visible teeth, and they have big gaps between them."
+            "An old black and white dog is insdog_tage a house sitting on a hardwood floor. He is looking right at the camera and smiling. He only has 4 visible teeth, and they have big gaps between them."
         ],
         "rating_value": 0,
         "rating_count": 0
     },
     {
-        "id": 23,
+        "dog_tag": 23,
         "name": "Coach",
         "description": "She overheard you say something about the neighbor being a good girl. Just checking if that was about her.",
         "source_link": "https://t.co/pkJ5PEj1qf",
@@ -422,9 +422,9 @@
         "rating_count": 0
     },
     {
-        "id": 24,
+        "dog_tag": 24,
         "name": "Halo, but you know her better as the @dog_feelings profile pic",
-        "description": "Her iconic watermelon smile has given a voice to dogs everywhere. Halo passed away last week at the age of 9. She went peacefully and surrounded by her family. She didn\u2019t suffer for a moment.",
+        "description": "Her iconic watermelon smile has given a voice to dogs everywhere. Halo passed away last week at the age of 9. She went peacefully and surrounded by her family. She ddog_tagn\u2019t suffer for a moment.",
         "source_link": "https://t.co/BaKeeKmhlx",
         "donation_link": null,
         "media_links": [
@@ -434,7 +434,7 @@
             "https://pbs.twimg.com/media/E1ClSafVcAcCSVY.jpg"
         ],
         "alternate_texts": [
-            "golden retriever puppy with muddy paws being carried inside. they look innocent to me",
+            "golden retriever puppy with muddy paws being carried insdog_tage. they look innocent to me",
             "slightly older now. carrying around a giant purple stuffed octopus",
             "much older now. she looks tired, but happy. she\u2019s lying on her bed",
             "the iconic profile pic of Halo holding her watermelon. eyes shut, radiating bliss"
@@ -443,7 +443,7 @@
         "rating_count": 0
     },
     {
-        "id": 25,
+        "dog_tag": 25,
         "name": "Mervin",
         "description": "He has hip and elbow dysplasia. For a while it kept him from enjoying his favorite beach. Fortunately, he has @Trupanion to help with his medical bills, and hydrotherapy to help with his hips. Now he\u2019s bark and better than ever.",
         "source_link": "https://t.co/L9eewGFpN9",
@@ -464,7 +464,7 @@
         "rating_count": 0
     },
     {
-        "id": 26,
+        "dog_tag": 26,
         "name": "Pearl",
         "description": "She can hear a caterpillar hiccup from over a mile away. Happens more than you\u2019d think.",
         "source_link": "https://t.co/S7A2JDLxOf",
@@ -479,9 +479,9 @@
         "rating_count": 0
     },
     {
-        "id": 27,
+        "dog_tag": 27,
         "name": "Thor",
-        "description": "He ate his bed. Like, so much of it he needed surgery to remove it all. Unsure why the inside looks like cotton candy if you can't eat it. We've covered the cost of his medical care. He's feeling much better.",
+        "description": "He ate his bed. Like, so much of it he needed surgery to remove it all. Unsure why the insdog_tage looks like cotton candy if you can't eat it. We've covered the cost of his medical care. He's feeling much better.",
         "source_link": "https://t.co/kDZ4Qq5zWF",
         "donation_link": null,
         "media_links": [
@@ -496,7 +496,7 @@
         "rating_count": 0
     },
     {
-        "id": 28,
+        "dog_tag": 28,
         "name": "Rux",
         "description": "He needs everyone to know this is not a phase. This is who he really is.",
         "source_link": "https://t.co/QRNafzXbFR",
@@ -513,37 +513,37 @@
         "rating_count": 0
     },
     {
-        "id": 29,
+        "dog_tag": 29,
         "name": "Loki",
-        "description": "She finally joined the retirement club. Planned an elaborate vacation to Hawaii, but decided to bring Hawaii to her instead.",
+        "description": "She finally joined the retirement club. Planned an elaborate vacation to Hawaii, but decdog_taged to bring Hawaii to her instead.",
         "source_link": "https://t.co/u8GAgBoLwE",
         "donation_link": null,
         "media_links": [
             "https://pbs.twimg.com/media/E95SnVTUYAEwKYV.jpg"
         ],
         "alternate_texts": [
-            "A black, brown and white senior dog is outside on the grass wearing a pink lei around her head."
+            "A black, brown and white senior dog is outsdog_tage on the grass wearing a pink lei around her head."
         ],
         "rating_value": 0,
         "rating_count": 0
     },
     {
-        "id": 30,
+        "dog_tag": 30,
         "name": "Wrigley",
         "description": "He\u2019s steppin out for a bit if you guys need anything. Tired of nobody seeing his fits.",
-        "source_link": "https://t.co/iDXjQkYI0D",
+        "source_link": "https://t.co/dog_tagXjQkYI0D",
         "donation_link": null,
         "media_links": [
             "https://pbs.twimg.com/media/EvCO1IQUcAQzL-l.jpg"
         ],
         "alternate_texts": [
-            "samoyed puppy outside his front door dressed in a black beret, burgundy scarf, and brown duck boots"
+            "samoyed puppy outsdog_tage his front door dressed in a black beret, burgundy scarf, and brown duck boots"
         ],
         "rating_value": 0,
         "rating_count": 0
     },
     {
-        "id": 31,
+        "dog_tag": 31,
         "name": "Maisie",
         "description": "She isn't going anywhere until you smile back at her. Might even stay a bit after that.",
         "source_link": "https://t.co/qyxMg42KLi",
@@ -558,7 +558,7 @@
         "rating_count": 0
     },
     {
-        "id": 32,
+        "dog_tag": 32,
         "name": "Apollo",
         "description": "He was just wondering if- omg\u2026 2319! WE HAVE A 2319! EVERYBODY DOWN. PUPPARE FOR DECONTAMINATION.",
         "source_link": "https://t.co/nck1zjxody",
@@ -567,13 +567,13 @@
             "https://pbs.twimg.com/media/FKc6khMUUAI1gbn.jpg"
         ],
         "alternate_texts": [
-            "pitbull sitting to the side looking at us worryingly. he has a white sock stuck to his back"
+            "pitbull sitting to the sdog_tage looking at us worryingly. he has a white sock stuck to his back"
         ],
         "rating_value": 0,
         "rating_count": 0
     },
     {
-        "id": 33,
+        "dog_tag": 33,
         "name": "Sherio",
         "description": "He helps rescue feral kittens, but right now he\u2019s also fighting cancer. He has his fifth surgery in 11 months coming up to try and slow its spread. The medical bills have been overwhelming, but you can help him with them below.",
         "source_link": "https://t.co/FxAhONvZXe",
@@ -594,7 +594,7 @@
         "rating_count": 0
     },
     {
-        "id": 34,
+        "dog_tag": 34,
         "name": "Snowelle",
         "description": "She\u2019s our Canadian pup of the day! Available through @ManitobaMutts. Would like to know when it\u2019s going to be her turn to play Mario Brothers. You can adopt Snowelle by clicking the link below.",
         "source_link": "https://t.co/NpUmAG4zMX",
@@ -611,7 +611,7 @@
         "rating_count": 0
     },
     {
-        "id": 35,
+        "dog_tag": 35,
         "name": "Siri",
         "description": "She heard you\u2019re not supposed to go chasing waterfalls. Went anyway and it was lovely. Not sure why they say that.",
         "source_link": "https://t.co/PHLYE2iBwh",
@@ -626,7 +626,7 @@
         "rating_count": 0
     },
     {
-        "id": 36,
+        "dog_tag": 36,
         "name": "Kona",
         "description": "She's just so grateful that she found her forever human. Can't believe she gets to spend every day with her best friend.",
         "source_link": "https://t.co/AmV7XKdFKz",
@@ -641,7 +641,7 @@
         "rating_count": 0
     },
     {
-        "id": 37,
+        "dog_tag": 37,
         "name": "Eddie and Stan",
         "description": "They're the stars of @budweiserusa's Super Bowl commercial. They've been best friends for years and finally caught their big break together. They can\u2019t wait for you to see it.",
         "source_link": "https://t.co/AOzVwBkG9h",
@@ -662,8 +662,8 @@
         "rating_count": 0
     },
     {
-        "id": 38,
-        "name": "Smidgen",
+        "dog_tag": 38,
+        "name": "Smdog_taggen",
         "description": "She was rescued from a backyard breeder. During her first vet visit, an echocardiogram revealed two heart conditions. Either could send her into cardiac arrest at any moment. You can help her get the surgery to fix them both below.",
         "source_link": "https://t.co/FlNpEp3mIS",
         "donation_link": "https://t.co/vt64dxs0sm",
@@ -674,14 +674,14 @@
         ],
         "alternate_texts": [
             "6 month old pit bull puppy with her ears cropped sitting in a transport kennel",
-            "smidgen playing with a duck toy",
-            "smidgen sitting looking up at you"
+            "smdog_taggen playing with a duck toy",
+            "smdog_taggen sitting looking up at you"
         ],
         "rating_value": 0,
         "rating_count": 0
     },
     {
-        "id": 39,
+        "dog_tag": 39,
         "name": "Jiminy",
         "description": "Like any ruff-and-tumble cowboy, he\u2019s had some joint issues and the occasional ill-advised grub. Thankfully, it\u2019s not his human\u2019s first rodeo. He\u2019s covered by @Trupanion, so his only worry is finding his best angle in the bluebonnets.",
         "source_link": "https://t.co/XWD9WmBbgr",
@@ -700,7 +700,7 @@
         "rating_count": 0
     },
     {
-        "id": 40,
+        "dog_tag": 40,
         "name": "Kiba",
         "description": "He just turned 2, and in his first couple years he\u2019s had a few health scares. Thankfully, his healthcare is covered by @Trupanion, so he can go on all his snowy adventures with peace of mind.",
         "source_link": "https://t.co/gswpJ5yFhc",
@@ -715,13 +715,13 @@
             "black Eurasia puppy, kind of looks like a bear, with his tongue poking out",
             "slightly older Kiba in a car. the sun is hitting the back of his head creating an orange glow against his black fur",
             "even older looking Kiba about to chomp on an icicle",
-            "full grown Kiba looking very powerful in the middle of a snow squall"
+            "full grown Kiba looking very powerful in the mdog_tagdle of a snow squall"
         ],
         "rating_value": 0,
         "rating_count": 0
     },
     {
-        "id": 41,
+        "dog_tag": 41,
         "name": "Charlie",
         "description": "He has literal heart-eyes.",
         "source_link": "https://t.co/TLMdX7SwHi",
@@ -742,7 +742,7 @@
         "rating_count": 0
     },
     {
-        "id": 42,
+        "dog_tag": 42,
         "name": "Archie",
         "description": "He\u2019s out of pawffice this week. Do not even think about contacting him. For any reason.",
         "source_link": "https://t.co/lIbZ9Dnxon",
@@ -759,7 +759,7 @@
         "rating_count": 0
     },
     {
-        "id": 43,
+        "dog_tag": 43,
         "name": "Bo",
         "description": "He just got his dream job at an indie record store. He\u2019s trying to keep cool but just can\u2019t contain his excitement.",
         "source_link": "https://t.co/JIFUXSTf3q",
@@ -776,7 +776,7 @@
         "rating_count": 0
     },
     {
-        "id": 44,
+        "dog_tag": 44,
         "name": "Horton",
         "description": "He's been doing yoga for months. Would like to share that he can finally touch his toes.",
         "source_link": "https://t.co/PyNQ3Nyi0X",
@@ -791,7 +791,7 @@
         "rating_count": 0
     },
     {
-        "id": 45,
+        "dog_tag": 45,
         "name": "Tonkey",
         "description": "She has @trupanion medical insurance. The only thing it hasn\u2019t protected her from over the years... is bath time.",
         "source_link": "https://t.co/c5H4Voqj34",
@@ -804,13 +804,13 @@
         "alternate_texts": [
             "shar-pei puppy in a sink looking nervous",
             "she\u2019s now being held in a standing position as water runs over her, still not amused",
-            "the bathtub is now mostly full, and she has her paws over the side, desperate for an extraction"
+            "the bathtub is now mostly full, and she has her paws over the sdog_tage, desperate for an extraction"
         ],
         "rating_value": 0,
         "rating_count": 0
     },
     {
-        "id": 46,
+        "dog_tag": 46,
         "name": "Beau",
         "description": "He\u2019s taking a power snoozle before continuing his med school studies. Wears the stethoscope for motivation.",
         "source_link": "https://t.co/pNYjyEq3qT",
@@ -825,13 +825,13 @@
         "rating_count": 0
     },
     {
-        "id": 47,
+        "dog_tag": 47,
         "name": "Murphy",
         "description": "He\u2019s been training for years to carry two tennis balls at the same time. Now he\u2019s just showing off.",
         "source_link": "https://t.co/UVvjkx0bm2",
         "donation_link": null,
         "media_links": [
-            "https://pbs.twimg.com/media/E9VIdHUVoAEZ3a-.jpg"
+            "https://pbs.twimg.com/media/E9Vdog_tagHUVoAEZ3a-.jpg"
         ],
         "alternate_texts": [
             "A senior golden retriever is laying in the grass holding two tennis balls in her mouth. She seems quite impressed with herself"
@@ -840,7 +840,7 @@
         "rating_count": 0
     },
     {
-        "id": 48,
+        "dog_tag": 48,
         "name": "Libby",
         "description": "She had a scab on her nose and when it healed, it left a perfect pink heart. A target for your smooches, if you will.",
         "source_link": "https://t.co/Xu7hPNeh2g",
@@ -849,13 +849,13 @@
             "https://pbs.twimg.com/media/FGBl8EnVIAQapt0.jpg"
         ],
         "alternate_texts": [
-            "brown and white boxer looking up at you. she has a tiny perfect pink heart on the right side of her nose"
+            "brown and white boxer looking up at you. she has a tiny perfect pink heart on the right sdog_tage of her nose"
         ],
         "rating_value": 0,
         "rating_count": 0
     },
     {
-        "id": 49,
+        "dog_tag": 49,
         "name": "Boss",
         "description": "He ate part of a belt and needed surgery to remove it. Unsure why they'd make something you can't eat look like a giant piece of bacon. Fair point. We covered his medical costs and he's feeling much better.",
         "source_link": "https://t.co/v6FV6fOARM",
@@ -872,7 +872,7 @@
         "rating_count": 0
     },
     {
-        "id": 50,
+        "dog_tag": 50,
         "name": "Frysauce",
         "description": "He spent the entire summer crocheting this sweater for you. Only rule is that you have to share it with him.",
         "source_link": "https://t.co/v5qwnJ0wFs",
@@ -889,7 +889,7 @@
         "rating_count": 0
     },
     {
-        "id": 51,
+        "dog_tag": 51,
         "name": "Boone and Hank",
         "description": "Hank is SUPER EXCITED to have a big brother. Boone was not consulted at all about this addition. Both",
         "source_link": "https://t.co/9zhpoUaR22",
@@ -904,7 +904,7 @@
         "rating_count": 0
     },
     {
-        "id": 52,
+        "dog_tag": 52,
         "name": "Stanley",
         "description": "He is patiently waiting his 30 minutes after eating so he can hop in the pool.",
         "source_link": "https://t.co/KJGxcgW1gU",
@@ -919,7 +919,7 @@
         "rating_count": 0
     },
     {
-        "id": 53,
+        "dog_tag": 53,
         "name": "Vader",
         "description": "He is currently in the snowball fight of the century out there. Requesting back-pup. Really needs someone with opposable thumbs.",
         "source_link": "https://t.co/EkzYrsplIc",
@@ -934,9 +934,9 @@
         "rating_count": 0
     },
     {
-        "id": 54,
+        "dog_tag": 54,
         "name": "Buffy",
-        "description": "She managed to steal a whole bottle of vitamin D3 off the counter. Thought it would make her big and strong but it only made her need an overnight stay at the vet. We\u2019ve paid for her care and told her we already think she\u2019s big and strong.",
+        "description": "She managed to steal a whole bottle of vitamin D3 off the counter. Thought it would make her big and strong but it only made her need an overnight stay at the vet. We\u2019ve padog_tag for her care and told her we already think she\u2019s big and strong.",
         "source_link": "https://t.co/Kvql9LeDKK",
         "donation_link": null,
         "media_links": [
@@ -951,7 +951,7 @@
         "rating_count": 0
     },
     {
-        "id": 55,
+        "dog_tag": 55,
         "name": "Fezco",
         "description": "He was abandoned by his previous owners for being \u201cgay\u201d after he humped another male dog. This week he was adopted by Steve Nichols and his husband, John Winn. The couple has since renamed him Oscar, after Oscar Wilde.",
         "source_link": "https://t.co/nhytrllMx6",
@@ -961,14 +961,14 @@
             "https://pbs.twimg.com/media/FOzEBISVcAEOmIv.jpg"
         ],
         "alternate_texts": [
-            "black and tan shepherd mix, his ears go straight out to the sides, and he has nice tan eyebrows. he\u2019s standing in a shelter smiling with his purple and pink tongue sticking out",
-            "the shepherd is now in between two middle-aged caucasian males. both are smiling wide. fezco is being showered with love"
+            "black and tan shepherd mix, his ears go straight out to the sdog_tages, and he has nice tan eyebrows. he\u2019s standing in a shelter smiling with his purple and pink tongue sticking out",
+            "the shepherd is now in between two mdog_tagdle-aged caucasian males. both are smiling wdog_tage. fezco is being showered with love"
         ],
         "rating_value": 0,
         "rating_count": 0
     },
     {
-        "id": 56,
+        "dog_tag": 56,
         "name": "Walter",
         "description": "He just found out you forgot to record his favorite TV show again. Thinks he should get to hold the remote from now on.",
         "source_link": "https://t.co/KJiffnCCYS",
@@ -977,13 +977,13 @@
             "https://pbs.twimg.com/media/E-IgEtCVUAIGqLo.jpg"
         ],
         "alternate_texts": [
-            "A brown dog is sitting on the couch giving you an intense side-eye because you forgot to tape his favorite show."
+            "A brown dog is sitting on the couch giving you an intense sdog_tage-eye because you forgot to tape his favorite show."
         ],
         "rating_value": 0,
         "rating_count": 0
     },
     {
-        "id": 57,
+        "dog_tag": 57,
         "name": "Boone",
         "description": "He doesn\u2019t know what color his ribbon is. Hopes it\u2019s blue, but if not that\u2019s okay. He had fun and that\u2019s all that matters.",
         "source_link": "https://t.co/j2HNGvlEMb",
@@ -998,7 +998,7 @@
         "rating_count": 0
     },
     {
-        "id": 58,
+        "dog_tag": 58,
         "name": "Bongo",
         "description": "He unlocked the multiverse. It was way easier than he thought it would be.",
         "source_link": "https://t.co/SyYQHUeQNE",
@@ -1013,9 +1013,9 @@
         "rating_count": 0
     },
     {
-        "id": 59,
+        "dog_tag": 59,
         "name": "Wilson",
-        "description": "He won last year\u2019s Pupweiser contest! Find his face on Budweiser cans in store right now. It was so much fun we\u2019re doing it again! Post a pic of your pup using #pupweisercontest and tag\u00a0@budweiserusa for a chance to be the face of their next holiday can.",
+        "description": "He won last year\u2019s Pupweiser contest! Find his face on Budweiser cans in store right now. It was so much fun we\u2019re doing it again! Post a pic of your pup using #pupweisercontest and tag\u00a0@budweiserusa for a chance to be the face of their next holdog_tagay can.",
         "source_link": "https://t.co/ZxDmetWPU0",
         "donation_link": null,
         "media_links": [
@@ -1030,7 +1030,7 @@
         "rating_count": 0
     },
     {
-        "id": 60,
+        "dog_tag": 60,
         "name": "Steve and Bug",
         "description": "Steve is a longtime veterinarian and the founder of @realmightyvet. Bug is his \u201c12 year old little lady\u201d who once swallowed a corn cob whole. Happens to the best of us. Both",
         "source_link": "https://t.co/lPFsDrBVy1",
@@ -1047,7 +1047,7 @@
         "rating_count": 0
     },
     {
-        "id": 61,
+        "dog_tag": 61,
         "name": "Grizz",
         "description": "He still loves his baby pool, even though he\u2019s grown out of it. Please don\u2019t judge.",
         "source_link": "https://t.co/Tzm1R6tCvR",
@@ -1057,14 +1057,14 @@
             "https://pbs.twimg.com/media/E9gDiIPVUAAlvfQ.jpg"
         ],
         "alternate_texts": [
-            "A large brown and white dog is in a kid\u2019s pool, taking up so much space that water is spilling out. He sees you looking at him",
-            "A large brown and white dog is in a kid\u2019s pool, taking up so much space that water is spilling out. He is avoiding eye contact"
+            "A large brown and white dog is in a kdog_tag\u2019s pool, taking up so much space that water is spilling out. He sees you looking at him",
+            "A large brown and white dog is in a kdog_tag\u2019s pool, taking up so much space that water is spilling out. He is avodog_taging eye contact"
         ],
         "rating_value": 0,
         "rating_count": 0
     },
     {
-        "id": 62,
+        "dog_tag": 62,
         "name": "Leon",
         "description": "He is very puppared for any inclement weather. Literally nothing could come between him and his walkies.",
         "source_link": "https://t.co/HSMoDjVGcv",
@@ -1079,7 +1079,7 @@
         "rating_count": 0
     },
     {
-        "id": 63,
+        "dog_tag": 63,
         "name": "a pineapple",
         "description": "We only rate dogs. It's one thing to send us other animals, but sending us a plant is purely uncivilized. Please send dogs... thank you.",
         "source_link": "https://t.co/Gj3MxtO6WY",
@@ -1094,7 +1094,7 @@
         "rating_count": 0
     },
     {
-        "id": 64,
+        "dog_tag": 64,
         "name": "Indy",
         "description": "You don\u2019t need to tell him his pajamas are cute, he is already aware. They also help his allergies. @Trupanion covers his medication and the PJs cover his floof.",
         "source_link": "https://t.co/Ro11RLgFnm",
@@ -1105,13 +1105,13 @@
         ],
         "alternate_texts": [
             "golden retriever sitting on a patio. he looks very proud of the christmas themed pajamas he is wearing",
-            "golden retriever sitting outside in a chair. his head rests on the armrest and his front feets dangle over the side. he\u2019s wearing christmas themed pajamas"
+            "golden retriever sitting outsdog_tage in a chair. his head rests on the armrest and his front feets dangle over the sdog_tage. he\u2019s wearing christmas themed pajamas"
         ],
         "rating_value": 0,
         "rating_count": 0
     },
     {
-        "id": 65,
+        "dog_tag": 65,
         "name": "Scrappy Doo",
         "description": "He knows he peed right before the road trip started, but he has to again. Cannot help that he is a hydrated king.",
         "source_link": "https://t.co/MLHOod8b7m",
@@ -1126,7 +1126,7 @@
         "rating_count": 0
     },
     {
-        "id": 66,
+        "dog_tag": 66,
         "name": "Sture",
         "description": "He can't believe you brought up his paw wrinkles. That's the one thing he's sensitive about.",
         "source_link": "https://t.co/vDr6ZbaRBP",
@@ -1135,13 +1135,13 @@
             "https://pbs.twimg.com/media/FMTM-Q5XIAUpQWQ.jpg"
         ],
         "alternate_texts": [
-            "miniature black and brown dachshund puppy stands in the middle of a room giving you the saddest face. his paw wrinkles are incredibly cute. please apologize"
+            "miniature black and brown dachshund puppy stands in the mdog_tagdle of a room giving you the saddest face. his paw wrinkles are incredibly cute. please apologize"
         ],
         "rating_value": 0,
         "rating_count": 0
     },
     {
-        "id": 67,
+        "dog_tag": 67,
         "name": "Rome and Milan",
         "description": "They're not sure how you tricked them into this bath, but they want to remind you that you are outnumbered.",
         "source_link": "https://t.co/ngXZ5RsDPQ",
@@ -1156,7 +1156,7 @@
         "rating_count": 0
     },
     {
-        "id": 68,
+        "dog_tag": 68,
         "name": "Moo",
         "description": "He\u2019s still getting the hang of things, just in general.",
         "source_link": "https://t.co/a1YSrx0pR7",
@@ -1169,15 +1169,15 @@
         ],
         "alternate_texts": [
             "black brown and white speckled wiener dog. he\u2019s sitting in his humans lap upright, with there thumbs under his armpits propping him up",
-            "curled up on a blue bed giving us sideye",
-            "leaning over a couch looking at us but his ears are all the way inside out",
+            "curled up on a blue bed giving us sdog_tageye",
+            "leaning over a couch looking at us but his ears are all the way insdog_tage out",
             "up close of his rotund booty. he\u2019s looking over his shoulder back at us awkwardly"
         ],
         "rating_value": 0,
         "rating_count": 0
     },
     {
-        "id": 69,
+        "dog_tag": 69,
         "name": "Rocky",
         "description": "He\u2019s been promoted from good boy to best man. Understands what a big deal this is. Taking his duties very seriously.",
         "source_link": "https://t.co/PjLwVCgWR2",
@@ -1187,14 +1187,14 @@
             "https://pbs.twimg.com/media/FK2v7tIVUAEk9Sr.jpg"
         ],
         "alternate_texts": [
-            "senior pug/Pomeranian mix in wedding attire. he has a little vest with a purple tie, matching the groom who\u2019s holding him. a bouquet of flowers is beside him, being held by the bride. his tongue is sticking out to the side",
+            "senior pug/Pomeranian mix in wedding attire. he has a little vest with a purple tie, matching the groom who\u2019s holding him. a bouquet of flowers is besdog_tage him, being held by the brdog_tage. his tongue is sticking out to the sdog_tage",
             "he\u2019s now on the ground. tongue still out. best man attire still on"
         ],
         "rating_value": 0,
         "rating_count": 0
     },
     {
-        "id": 70,
+        "dog_tag": 70,
         "name": "Cohen",
         "description": "He takes his health very seriously. Started flossing when he was just a puppy. Dentists adore him, and @JustFoodForDogs is proud to feed him.",
         "source_link": "https://t.co/toQwanqSzM",
@@ -1215,7 +1215,7 @@
         "rating_count": 0
     },
     {
-        "id": 71,
+        "dog_tag": 71,
         "name": "a covert secret agent",
         "description": "Can infiltrate any room completely undetected. Usually disguised as a teddy bear.",
         "source_link": "https://t.co/TjDFLFbaA7",
@@ -1230,7 +1230,7 @@
         "rating_count": 0
     },
     {
-        "id": 72,
+        "dog_tag": 72,
         "name": "Maisey",
         "description": "She found a tater tot under the couch. Not sure how long it's been there. Hopes you weren't saving it for later.",
         "source_link": "https://t.co/XOXxdxolit",
@@ -1247,9 +1247,9 @@
         "rating_count": 0
     },
     {
-        "id": 73,
+        "dog_tag": 73,
         "name": "Howdy",
-        "description": "He\u2019s the new sheriff. I know he\u2019s not like super intimidating but please respect his authority. He gets grumpy if you don\u2019t.",
+        "description": "He\u2019s the new sheriff. I know he\u2019s not like super intimdog_tagating but please respect his authority. He gets grumpy if you don\u2019t.",
         "source_link": "https://t.co/akXWwWq7bF",
         "donation_link": null,
         "media_links": [
@@ -1264,7 +1264,7 @@
         "rating_count": 0
     },
     {
-        "id": 74,
+        "dog_tag": 74,
         "name": "Lucy Lu",
         "description": "She was denied the opportunity to present her case against bath time. A true injustice.",
         "source_link": "https://t.co/eAt98Ge3Vx",
@@ -1285,7 +1285,7 @@
         "rating_count": 0
     },
     {
-        "id": 75,
+        "dog_tag": 75,
         "name": "Chevy",
         "description": "He doesn\u2019t mind the colder weather because he gets to wear his hoodie. It\u2019s very cozy.",
         "source_link": "https://t.co/JrLeJqenAW",
@@ -1300,7 +1300,7 @@
         "rating_count": 0
     },
     {
-        "id": 76,
+        "dog_tag": 76,
         "name": "Ollie",
         "description": "He thought he heard an ant trip over here. Came by to make sure they\u2019re ok.",
         "source_link": "https://t.co/53m6nzrgrJ",
@@ -1315,9 +1315,9 @@
         "rating_count": 0
     },
     {
-        "id": 77,
+        "dog_tag": 77,
         "name": "Maggie",
-        "description": "She got sent home from the amusement park. Was told she wasn't tall enough to ride any of the rides. Getting a second opinion.",
+        "description": "She got sent home from the amusement park. Was told she wasn't tall enough to rdog_tage any of the rdog_tages. Getting a second opinion.",
         "source_link": "https://t.co/ZMOz7t2ZHL",
         "donation_link": null,
         "media_links": [
@@ -1330,7 +1330,7 @@
         "rating_count": 0
     },
     {
-        "id": 78,
+        "dog_tag": 78,
         "name": "Mila",
         "description": "Her baby teeth fell out and these new fancy ones came in. As you can see, they\u2019re much more powerful.",
         "source_link": "https://t.co/VKj6OQnm4z",
@@ -1347,9 +1347,9 @@
         "rating_count": 0
     },
     {
-        "id": 79,
+        "dog_tag": 79,
         "name": "Maggie",
-        "description": "She had happy tail syndrome. She wagged so passionately and so often that her tail would bonk into things, causing bleeding and infection. She was in pain, and the best course of action was amputation. We paid for her surgery and she\u2019s doing so much better.",
+        "description": "She had happy tail syndrome. She wagged so passionately and so often that her tail would bonk into things, causing bleeding and infection. She was in pain, and the best course of action was amputation. We padog_tag for her surgery and she\u2019s doing so much better.",
         "source_link": "https://t.co/xr6hEVQIrZ",
         "donation_link": null,
         "media_links": [
@@ -1360,7 +1360,7 @@
         ],
         "alternate_texts": [
             "an adorable brown and white puppy wearing a red harness sits and looks at you",
-            "the brown and white puppy is now a little bigger, and she is standing on the sidewalk, looking behind her. the tip of her tail is wrapped in blue and white bandages",
+            "the brown and white puppy is now a little bigger, and she is standing on the sdog_tagewalk, looking behind her. the tip of her tail is wrapped in blue and white bandages",
             "the brown and white dog sits on the floor wearing a full neck cone and blue harness. most of her tail has been amputated",
             "screenshot of Maggie\u2019s fully funded GoFundMe campaign"
         ],
@@ -1368,9 +1368,9 @@
         "rating_count": 0
     },
     {
-        "id": 80,
+        "dog_tag": 80,
         "name": "Diego",
-        "description": "He plays Cosmo the telepathic Space Dog in the pupcoming @Marvel Guardians of the Galaxy video game. He was fitted with a high-tech motion capture suit to create all the in-game footage.",
+        "description": "He plays Cosmo the telepathic Space Dog in the pupcoming @Marvel Guardians of the Galaxy vdog_tageo game. He was fitted with a high-tech motion capture suit to create all the in-game footage.",
         "source_link": "https://t.co/xuPGmfn89P",
         "donation_link": null,
         "media_links": [
@@ -1382,14 +1382,14 @@
         "alternate_texts": [
             "golden retriever in a black suit with sensors all over it. he\u2019s smiling as a researcher puts his back fit into the pants part",
             "he\u2019s now sitting up tall. you can see his chest in the suit and his precious smiling face. his tongue is sticking out far. he has two big sensors above each eye",
-            "this is a still shot from within the video game of Cosmo the space dog. it\u2019s up close but he\u2019s in a spacesuit and appears to be on a spaceship",
-            "another in game shot. he\u2019s now staring straight into the camera. eyes glowing white. he appears to be growling but he\u2019s so cute and fluffy it\u2019s not very intimidating"
+            "this is a still shot from within the vdog_tageo game of Cosmo the space dog. it\u2019s up close but he\u2019s in a spacesuit and appears to be on a spaceship",
+            "another in game shot. he\u2019s now staring straight into the camera. eyes glowing white. he appears to be growling but he\u2019s so cute and fluffy it\u2019s not very intimdog_tagating"
         ],
         "rating_value": 0,
         "rating_count": 0
     },
     {
-        "id": 81,
+        "dog_tag": 81,
         "name": "Haru",
         "description": "She is just now waking from her food coma. It lasted all weekend. A few more minutes couldn\u2019t hurt though.",
         "source_link": "https://t.co/bdCuEIOHom",
@@ -1406,7 +1406,7 @@
         "rating_count": 0
     },
     {
-        "id": 82,
+        "dog_tag": 82,
         "name": "Moose",
         "description": "Watch this. He can make his ears disappear. It's a great party trick. Also his only one.",
         "source_link": "https://t.co/3Nf1fyRDlU",
@@ -1416,14 +1416,14 @@
             "https://pbs.twimg.com/media/FPIpNSXXsA4TDFO.jpg"
         ],
         "alternate_texts": [
-            "A brown and white corgi is looking at the camera. He\u2019s on a sidewalk. His ears are perked up. It looks like he\u2019s about to do something.",
-            "The same brown and white corgi is in the same spot on the sidewalk. His ears have disappeared behind his head. It\u2019s incredulous. Best party trick ever."
+            "A brown and white corgi is looking at the camera. He\u2019s on a sdog_tagewalk. His ears are perked up. It looks like he\u2019s about to do something.",
+            "The same brown and white corgi is in the same spot on the sdog_tagewalk. His ears have disappeared behind his head. It\u2019s incredulous. Best party trick ever."
         ],
         "rating_value": 0,
         "rating_count": 0
     },
     {
-        "id": 83,
+        "dog_tag": 83,
         "name": "Lola",
         "description": "She really misses her older sister.",
         "source_link": "https://t.co/EjgjxtZYPS",
@@ -1440,7 +1440,7 @@
         "rating_count": 0
     },
     {
-        "id": 84,
+        "dog_tag": 84,
         "name": "Odin",
         "description": "He\u2019s been working hard to get ready for round boi summer.",
         "source_link": "https://t.co/pVFAnOdd10",
@@ -1457,9 +1457,9 @@
         "rating_count": 0
     },
     {
-        "id": 85,
+        "dog_tag": 85,
         "name": "Humphrey",
-        "description": "He would like to discuss bigger bowl options whenever you get a chance. It\u2019s just that this looks ridiculous.",
+        "description": "He would like to discuss bigger bowl options whenever you get a chance. It\u2019s just that this looks rdog_tagiculous.",
         "source_link": "https://t.co/QbItzZEPtb",
         "donation_link": null,
         "media_links": [
@@ -1474,7 +1474,7 @@
         "rating_count": 0
     },
     {
-        "id": 86,
+        "dog_tag": 86,
         "name": "Stan",
         "description": "He\u2019s very serious about you having a good day. Any pawblems just send them his way. He\u2019ll take care of it.",
         "source_link": "https://t.co/T51XBdgJy2",
@@ -1489,9 +1489,9 @@
         "rating_count": 0
     },
     {
-        "id": 87,
+        "dog_tag": 87,
         "name": "Doug the Pug",
-        "description": "He\u2019s a squishy-faced legend with over 18 million followers and 2 People\u2019s Choice Awards. He\u2019s been making everybody smile for nearly a decade, and will continue to do so with his new foundation supporting kids battling cancer. Doug gets the very rare\u2026",
+        "description": "He\u2019s a squishy-faced legend with over 18 million followers and 2 People\u2019s Choice Awards. He\u2019s been making everybody smile for nearly a decade, and will continue to do so with his new foundation supporting kdog_tags battling cancer. Doug gets the very rare\u2026",
         "source_link": "https://t.co/JxGQqyYTAZ",
         "donation_link": null,
         "media_links": [
@@ -1510,7 +1510,7 @@
         "rating_count": 0
     },
     {
-        "id": 88,
+        "dog_tag": 88,
         "name": "Gretel",
         "description": "She\u2019s an adventure sausage. Has been hiking twice a week for her entire life. She had a back injury a few years ago, but with the help of @Trupanion, she returned to the mountains with her little sister, Summit, in no time.",
         "source_link": "https://t.co/bhaXbDhrBf",
@@ -1531,7 +1531,7 @@
         "rating_count": 0
     },
     {
-        "id": 89,
+        "dog_tag": 89,
         "name": "Shanel",
         "description": "She has lymphoma cancer. Her chemotherapy is working great, but she\u2019s only halfway through her treatments and cannot afford to complete them. Her little sister Sweda really wants her to beat this, and you can help her do it below.",
         "source_link": "https://t.co/pPxBn4r337",
@@ -1542,13 +1542,13 @@
         ],
         "alternate_texts": [
             "brown and white sheltie looking majestic in the snow",
-            "Shanel on the couch resting her head on the side, little sister Sweda, a darker sheltie, appears to be whispering in her ear"
+            "Shanel on the couch resting her head on the sdog_tage, little sister Sweda, a darker sheltie, appears to be whispering in her ear"
         ],
         "rating_value": 0,
         "rating_count": 0
     },
     {
-        "id": 90,
+        "dog_tag": 90,
         "name": "Gracie",
         "description": "She picked this flower for you. Won\u2019t move until you take it.",
         "source_link": "https://t.co/FotIHvCt7y",
@@ -1565,7 +1565,7 @@
         "rating_count": 0
     },
     {
-        "id": 91,
+        "dog_tag": 91,
         "name": "Cooper",
         "description": "He's concerned this angle makes his head look big. Especially compared to the rest of his body.",
         "source_link": "https://t.co/A0UjGNa7cV",
@@ -1580,7 +1580,7 @@
         "rating_count": 0
     },
     {
-        "id": 92,
+        "dog_tag": 92,
         "name": "Nala",
         "description": "She knows you have to work, but she respectfully disagrees. Will sit here and pout until you figure out your priorities.",
         "source_link": "https://t.co/PJ6DrslxHq",
@@ -1597,7 +1597,7 @@
         "rating_count": 0
     },
     {
-        "id": 93,
+        "dog_tag": 93,
         "name": "Saint Sebastian",
         "description": "He is the patron saint of shedders, droolers, and handsome clouds.",
         "source_link": "https://t.co/B4aekMyAYD",
@@ -1612,7 +1612,7 @@
         "rating_count": 0
     },
     {
-        "id": 94,
+        "dog_tag": 94,
         "name": "Lapsha",
         "description": "She\u2019s wondering if these photos make her nose look big. If you could take a peek and get back to her that'd be great.",
         "source_link": "https://t.co/T8tdFvRhH3",
@@ -1624,7 +1624,7 @@
             "https://pbs.twimg.com/media/FIcddqeVgAAX-sm.jpg"
         ],
         "alternate_texts": [
-            "borzoi lying down inside looking up at you with just a ridiculous long skinny snoot",
+            "borzoi lying down insdog_tage looking up at you with just a rdog_tagiculous long skinny snoot",
             "it\u2019s not a straight on shot where the nose is as big as her head",
             "she\u2019s resting her head on the armchair of a couch. full glorious snoot in view",
             "she\u2019s not looking at you but her snoot is pointing down, once again revealing it\u2019s cartoonishly large size"
@@ -1633,7 +1633,7 @@
         "rating_count": 0
     },
     {
-        "id": 95,
+        "dog_tag": 95,
         "name": "Frodo",
         "description": "He was the last of 48 survivors rescued from Michael Vick\u2019s dogfighting operation in 2007. He passed away over the weekend at the age of 15, surrounded by so much love. He and the rest of his very brave friends helped change animal welfare forever.",
         "source_link": "https://t.co/9EDrRs2x7N",
@@ -1648,7 +1648,7 @@
         "rating_count": 0
     },
     {
-        "id": 96,
+        "dog_tag": 96,
         "name": "Scooby",
         "description": "He's a little concerned he got a treat stuck up his nose. Wondering if you could take a look.",
         "source_link": "https://t.co/Bl6xKNMSqC",
@@ -1663,9 +1663,9 @@
         "rating_count": 0
     },
     {
-        "id": 97,
+        "dog_tag": 97,
         "name": "Bam Bam",
-        "description": "He was a little scared on his first plane ride. Felt a lot better after getting a hug from the flight attendant.",
+        "description": "He was a little scared on his first plane rdog_tage. Felt a lot better after getting a hug from the flight attendant.",
         "source_link": "https://t.co/XXJQ6XoIHE",
         "donation_link": null,
         "media_links": [
@@ -1680,7 +1680,7 @@
         "rating_count": 0
     },
     {
-        "id": 98,
+        "dog_tag": 98,
         "name": "Tank",
         "description": "He limped over to journalist @OzKaterji on a street full of destroyed armored vehicles in Bucha, Ukraine. He was alone and scared, but happy to follow a friendly voice. He was brave at the vet and is finally sleeping while the search for his people continues.",
         "source_link": "https://t.co/VOXjsms92D",
@@ -1701,7 +1701,7 @@
         "rating_count": 0
     },
     {
-        "id": 99,
+        "dog_tag": 99,
         "name": "Cooper",
         "description": "He built the picket fence himself. Needed a break from the rest of the world.",
         "source_link": "https://t.co/2FEEUg5azM",
@@ -1716,7 +1716,7 @@
         "rating_count": 0
     },
     {
-        "id": 100,
+        "dog_tag": 100,
         "name": "Boshi",
         "description": "It took a little while, but he finally learned how to activate both his ears at the same time.",
         "source_link": "https://t.co/zpQUkodL90",
@@ -1731,13 +1731,13 @@
             "little corgi on green grass with both ears flat down",
             "his right ear is starting to perk up now",
             "right ear is fully up. left ear is still down. he has a leaf in his mouth",
-            "both ears are now up and he\u2019s smiling wide"
+            "both ears are now up and he\u2019s smiling wdog_tage"
         ],
         "rating_value": 0,
         "rating_count": 0
     },
     {
-        "id": 101,
+        "dog_tag": 101,
         "name": "Kutoro",
         "description": "She'd like you to know her hat is sustainably sourced and ethically manufactured.",
         "source_link": "https://t.co/ckppXAJ52W",
@@ -1749,14 +1749,14 @@
         ],
         "alternate_texts": [
             "white fluffy pup looks very serious about the large leaf hat on her head",
-            "white fluffy dog shows off her large leaf hat from a side angle",
+            "white fluffy dog shows off her large leaf hat from a sdog_tage angle",
             "white fluffy dog is very happy with her large leaf hat, as indicated by the smile on her face"
         ],
         "rating_value": 0,
         "rating_count": 0
     },
     {
-        "id": 102,
+        "dog_tag": 102,
         "name": "Kalua",
         "description": "He has a big date tonight. Little nervous about his choice of bow tie, but we don't think he has reason to be.",
         "source_link": "https://t.co/RFClewMtp7",
@@ -1765,13 +1765,13 @@
             "https://pbs.twimg.com/media/FBnnNZ4UYAYFq2u.jpg"
         ],
         "alternate_texts": [
-            "a tiny grey/black pekingese sits nervously on the counter next to an assorted bouquet of flowers in a tall, glass vase. he is worried about his bowtie choice for the night. it is a dark purple with black & white plaid. he is going to do great"
+            "a tiny grey/black pekingese sits nervously on the counter next to an assorted bouquet of flowers in a tall, glass vase. he is worried about his bowtie choice for the night. it is a dark purple with black & white pladog_tag. he is going to do great"
         ],
         "rating_value": 0,
         "rating_count": 0
     },
     {
-        "id": 103,
+        "dog_tag": 103,
         "name": "Lukka",
         "description": "He would like you to drive him to the park now please. Just got @Trupanion so he is ready for whatever\u2019s thrown his way.",
         "source_link": "https://t.co/i67q7vrDaT",
@@ -1786,7 +1786,7 @@
         "rating_count": 0
     },
     {
-        "id": 104,
+        "dog_tag": 104,
         "name": "Teddy",
         "description": "He has been on a Himalayan retreat for the past 3 years and requests to be caught up to speed on the state of the world.",
         "source_link": "https://t.co/4ZoI5l3dqG",
@@ -1801,7 +1801,7 @@
         "rating_count": 0
     },
     {
-        "id": 105,
+        "dog_tag": 105,
         "name": "Kip",
         "description": "He was adopted at 10 years old and just turned 14 last month. Lost all his teeth so his tongue just kinda does what it wants. Hopes that\u2019s okay.",
         "source_link": "https://t.co/XZJeR6WoPb",
@@ -1813,7 +1813,7 @@
             "https://pbs.twimg.com/media/EuspF63VkAAkH_c.jpg"
         ],
         "alternate_texts": [
-            "grey iggy with a really white face, he\u2019s sitting in a stroller but he\u2019s really close to you. his eyes are huge and his tongue hangs from the left side of his mouth",
+            "grey iggy with a really white face, he\u2019s sitting in a stroller but he\u2019s really close to you. his eyes are huge and his tongue hangs from the left sdog_tage of his mouth",
             "similar angle but he\u2019s in a field, his name tag says \u201cKip\u201d and stands out against his fur",
             "he has a wreath of flowers around him in this one. they are blue, white, and orange. his front right paw is up in a fancy way. yes, his tongue is still out",
             "now he\u2019s in a birthday hat"
@@ -1822,9 +1822,9 @@
         "rating_count": 0
     },
     {
-        "id": 106,
+        "dog_tag": 106,
         "name": "Sierra",
-        "description": "Last week she woke up vomiting. The emergency vet discovered her intestine had flipped inside out. Immediate surgery to remove part of it was necessary to save her life. You can help Sierra with her recovery by clicking below.",
+        "description": "Last week she woke up vomiting. The emergency vet discovered her intestine had flipped insdog_tage out. Immediate surgery to remove part of it was necessary to save her life. You can help Sierra with her recovery by clicking below.",
         "source_link": "https://t.co/rEkPCmibD3",
         "donation_link": "https://t.co/nM43MusopY",
         "media_links": [
@@ -1839,7 +1839,7 @@
         "rating_count": 0
     },
     {
-        "id": 107,
+        "dog_tag": 107,
         "name": "Chloe",
         "description": "You all fully funded her GoFundMe campaign earlier this year. She received the surgery she needed and got to spend 8 more happy months with her family\u2014long enough to be the flower girl at her humans\u2019 wedding, all thanks to you.",
         "source_link": "https://t.co/gBUxFUo4P8",
@@ -1851,8 +1851,8 @@
             "https://pbs.twimg.com/media/FHuFv9AVEAA3p2V.jpg"
         ],
         "alternate_texts": [
-            "sitting beside her human in her wedding dress",
-            "kneeling with the bride and groom. outside with mountains in the background",
+            "sitting besdog_tage her human in her wedding dress",
+            "kneeling with the brdog_tage and groom. outsdog_tage with mountains in the background",
             "lying down on a blanket. IV going into her wrist, her human\u2019s hand resting on her head",
             "senior chocolate lab in a yard holding a massive bone and smiling"
         ],
@@ -1860,7 +1860,7 @@
         "rating_count": 0
     },
     {
-        "id": 108,
+        "dog_tag": 108,
         "name": "Davey",
         "description": "He\u2019s here to pick up your daughter. Will have her home by 9. Not a second later.",
         "source_link": "https://t.co/KNfUHdMCua",
@@ -1869,13 +1869,13 @@
             "https://pbs.twimg.com/media/E-4OtonVcA0ZsCd.jpg"
         ],
         "alternate_texts": [
-            "australian shepherd puppy in a little plaid collared shirt. he\u2019s sitting up looking right at the camera. he appears to be quite the gentlemen. i trust him"
+            "australian shepherd puppy in a little pladog_tag collared shirt. he\u2019s sitting up looking right at the camera. he appears to be quite the gentlemen. i trust him"
         ],
         "rating_value": 0,
         "rating_count": 0
     },
     {
-        "id": 109,
+        "dog_tag": 109,
         "name": "Murph",
         "description": "Not a lot of people know this, but he actually is the originator of the term \"puppy dog eyes\" and has been trying to copyright it for years.",
         "source_link": "https://t.co/EWggWbTAT6",
@@ -1890,7 +1890,7 @@
         "rating_count": 0
     },
     {
-        "id": 110,
+        "dog_tag": 110,
         "name": "Dutch",
         "description": "He\u2019s a dentist therapy dog. He\u2019ll rest in your lap and cuddle you while you\u2019re there.",
         "source_link": "https://t.co/Bkhq0Avkpn",
@@ -1901,13 +1901,13 @@
         ],
         "alternate_texts": [
             "golden retriever in a blue therapy dog vest laying in the lap of a patient. his head is turned towards the camera",
-            "POV of the patient, looking down to see the golden lying in their lap. dental equipment is to the side"
+            "POV of the patient, looking down to see the golden lying in their lap. dental equipment is to the sdog_tage"
         ],
         "rating_value": 0,
         "rating_count": 0
     },
     {
-        "id": 111,
+        "dog_tag": 111,
         "name": "Aja",
         "description": "She was just told she's a good girl. Suspicions confirmed.",
         "source_link": "https://t.co/YfPliuwr4G",
@@ -1924,9 +1924,9 @@
         "rating_count": 0
     },
     {
-        "id": 112,
+        "dog_tag": 112,
         "name": "Blue",
-        "description": "He likes to go to the top of the tallest hill in town to reenact Beyonc\u00e9 music videos.",
+        "description": "He likes to go to the top of the tallest hill in town to reenact Beyonc\u00e9 music vdog_tageos.",
         "source_link": "https://t.co/bNFqHUzBVo",
         "donation_link": null,
         "media_links": [
@@ -1939,7 +1939,7 @@
         "rating_count": 0
     },
     {
-        "id": 113,
+        "dog_tag": 113,
         "name": "Finn",
         "description": "He is his human\u2019s co-pilot. They\u2019ve been on the road and in the sky together for his entire life. The scenery may change, but one constant in their lives is @Trupanion\u2019s coverage of Finn. Just in case they run into any turbulence along the way.",
         "source_link": "https://t.co/MseuWJWFj8",
@@ -1953,14 +1953,14 @@
         "alternate_texts": [
             "little brown mixed pup being held up",
             "older now, eyes shut as they stick the upper half of their body out of a van window",
-            "he\u2019s now in an airplane cockpit, looking confident in his ability to fly the plane",
+            "he\u2019s now in an airplane cockpit, looking confdog_tagent in his ability to fly the plane",
             "he\u2019s now on top of a mountain, literally the peak. you can see other snowcapped mountains in the distance"
         ],
         "rating_value": 0,
         "rating_count": 0
     },
     {
-        "id": 114,
+        "dog_tag": 114,
         "name": "Pancho",
         "description": "He sees you have offered him one (1) bone. Politely proposes a counteroffer of seventeen (17) bones. He awaits your decision.",
         "source_link": "https://t.co/SYxZbYrK1k",
@@ -1975,7 +1975,7 @@
         "rating_count": 0
     },
     {
-        "id": 115,
+        "dog_tag": 115,
         "name": "Bond",
         "description": "He needs someone to babysit his plant collection. Insists that they get water that\u2019s shaken, not stirred.",
         "source_link": "https://t.co/BHZqQVKRqB",
@@ -1990,9 +1990,9 @@
         "rating_count": 0
     },
     {
-        "id": 116,
+        "dog_tag": 116,
         "name": "Nala",
-        "description": "She spent an entire day practicing her zoomies and was excited to show her dad how fast she can go when he got home from work. Accidentally zoomed right into the street and was hit by a car. We covered the cost of her care and wish her a speedy recovery.",
+        "description": "She spent an entire day practicing her zoomies and was excited to show her dad how fast she can go when he got home from work. Accdog_tagentally zoomed right into the street and was hit by a car. We covered the cost of her care and wish her a speedy recovery.",
         "source_link": "https://t.co/J4novULSU7",
         "donation_link": null,
         "media_links": [
@@ -2011,7 +2011,7 @@
         "rating_count": 0
     },
     {
-        "id": 117,
+        "dog_tag": 117,
         "name": "Ragnar",
         "description": "He's on his way to the park. Never been to one before. Put on a bow tie to hopefully make a good first impression.",
         "source_link": "https://t.co/Ij6GL24oy7",
@@ -2028,7 +2028,7 @@
         "rating_count": 0
     },
     {
-        "id": 118,
+        "dog_tag": 118,
         "name": "Rufus",
         "description": "Every time he's a good boy, he gets a new toy. As you can see, this happens often.",
         "source_link": "https://t.co/1v1nPyZlgM",
@@ -2043,7 +2043,7 @@
         "rating_count": 0
     },
     {
-        "id": 119,
+        "dog_tag": 119,
         "name": "Kiko",
         "description": "She\u2019s pawditioning for an all-dog remake of The Matrix. Not sure how anyone is going to top this.",
         "source_link": "https://t.co/mH9U02QLoA",
@@ -2058,13 +2058,13 @@
             "golden finnish spitz looking directly at a hand waiting to pet her",
             "the hand approaches and she leans back with just her neck. she\u2019s glancing at the camera",
             "the hand is closer now and her neck is bent even more backwards. she\u2019s almost looking fully behind her",
-            "the hand is even closer and Kaya has her neck bent entirely backwards. she\u2019s looking directly behind her to avoid the pet"
+            "the hand is even closer and Kaya has her neck bent entirely backwards. she\u2019s looking directly behind her to avodog_tag the pet"
         ],
         "rating_value": 0,
         "rating_count": 0
     },
     {
-        "id": 120,
+        "dog_tag": 120,
         "name": "Louie",
         "description": "He\u2019s been catching flights while you\u2019ve been catching feelings.",
         "source_link": "https://t.co/tap8D0ASX5",
@@ -2081,9 +2081,9 @@
         "rating_count": 0
     },
     {
-        "id": 121,
+        "dog_tag": 121,
         "name": "Donut",
-        "description": "He wanted to pop out and say hi. Wondering where your personal chauffeur is. Said you can borrow his, if you'd like.",
+        "description": "He wanted to pop out and say hi. Wondering where your personal chauffeur is. Sadog_tag you can borrow his, if you'd like.",
         "source_link": "https://t.co/Tf6WQOxihI",
         "donation_link": null,
         "media_links": [
@@ -2096,7 +2096,7 @@
         "rating_count": 0
     },
     {
-        "id": 122,
+        "dog_tag": 122,
         "name": "Eugene",
         "description": "He would like to meet this teef fairy he keeps hearing about. Has some logistical concerns.",
         "source_link": "https://t.co/tsuIylglUP",
@@ -2113,9 +2113,9 @@
         "rating_count": 0
     },
     {
-        "id": 123,
+        "dog_tag": 123,
         "name": "Buddy",
-        "description": "He found a very tasty looking rock outside. Swallowed it without hesitation. Unfortunately, it couldn't stay in his tummy and had to be surgically removed. We covered the remaining costs of his care, and he agrees that nothing about this experience\u2026 rocked.",
+        "description": "He found a very tasty looking rock outsdog_tage. Swallowed it without hesitation. Unfortunately, it couldn't stay in his tummy and had to be surgically removed. We covered the remaining costs of his care, and he agrees that nothing about this experience\u2026 rocked.",
         "source_link": "https://t.co/ubQvorZTOl",
         "donation_link": null,
         "media_links": [
@@ -2134,7 +2134,7 @@
         "rating_count": 0
     },
     {
-        "id": 124,
+        "dog_tag": 124,
         "name": "Penny",
         "description": "She fought a bee and the bee won.",
         "source_link": "https://t.co/cx9YWrHpox",
@@ -2149,7 +2149,7 @@
         "rating_count": 0
     },
     {
-        "id": 125,
+        "dog_tag": 125,
         "name": "Kirby",
         "description": "His engine has started and his ears have been deployed. Please puppare for takeoff.",
         "source_link": "https://t.co/oQBagbZfQO",
@@ -2164,7 +2164,7 @@
         "rating_count": 0
     },
     {
-        "id": 126,
+        "dog_tag": 126,
         "name": "Moose",
         "description": "He\u2019s wondering where Santa\u2019s reindeer tryouts are. Knows he has what it takes.",
         "source_link": "https://t.co/xqhLSP3F3o",
@@ -2179,7 +2179,7 @@
         "rating_count": 0
     },
     {
-        "id": 127,
+        "dog_tag": 127,
         "name": "Gussie",
         "description": "She took over your Zoom call while you were in the bathroom. Has been invited to stay. She actually has your job now.",
         "source_link": "https://t.co/mm3kP9sxhx",
@@ -2194,7 +2194,7 @@
         "rating_count": 0
     },
     {
-        "id": 128,
+        "dog_tag": 128,
         "name": "Padfoot",
         "description": "At just 5 years old, he needs a hip replacement. He can barely use his right rear leg and is noticeably sad about not going on hikes anymore. The surgery can extend his life and reduce his pain. You can help Padfoot get it below.",
         "source_link": "https://t.co/ixWO8w29AJ",
@@ -2215,7 +2215,7 @@
         "rating_count": 0
     },
     {
-        "id": 129,
+        "dog_tag": 129,
         "name": "Honey",
         "description": "She wants you to spot the difference between these two pics. It\u2019s very subtle so please take your time.",
         "source_link": "https://t.co/EHVpEyJWij",
@@ -2232,7 +2232,7 @@
         "rating_count": 0
     },
     {
-        "id": 130,
+        "dog_tag": 130,
         "name": "Lewis",
         "description": "He\u2019s had health insurance with @Trupanion since he was a puppy. Wanted to help everyone understand exactly how it works, so he helped write an article about it below.",
         "source_link": "https://t.co/igxsZQERRC",
@@ -2249,7 +2249,7 @@
         "rating_count": 0
     },
     {
-        "id": 131,
+        "dog_tag": 131,
         "name": "Ozzy",
         "description": "He ate one of his chew toys and it had to be surgically removed. He's a little embarrassed and doesn't want to comment on the situation at this time. We've covered the cost of his medical care and he is doing much better now.",
         "source_link": "https://t.co/8ooAWTSQw4",
@@ -2270,9 +2270,9 @@
         "rating_count": 0
     },
     {
-        "id": 132,
+        "dog_tag": 132,
         "name": "Benny",
-        "description": "He got into a heated argument with his lobster toy. Didn't like the way it was talking back to him, so he ate its squeaker. He needed surgery to remove it, so I'd say the lobster won. We covered his medical bills and he's doing better now.",
+        "description": "He got into a heated argument with his lobster toy. Ddog_tagn't like the way it was talking back to him, so he ate its squeaker. He needed surgery to remove it, so I'd say the lobster won. We covered his medical bills and he's doing better now.",
         "source_link": "https://t.co/oblH0W4tnJ",
         "donation_link": null,
         "media_links": [
@@ -2287,7 +2287,7 @@
         "rating_count": 0
     },
     {
-        "id": 133,
+        "dog_tag": 133,
         "name": "Peyton",
         "description": "She\u2019s available for adoption through @LostOurHome in Tempe, Arizona. She\u2019s a super smiley girl who does well with other pups! And you can invite her to be a part of your family by clicking the link below.",
         "source_link": "https://t.co/kcT87v7H6l",
@@ -2301,16 +2301,16 @@
         "alternate_texts": [
             "blue heeler/hound mix looking very happy. rolling on the ground",
             "closer up, tongue is out now",
-            "she\u2019s upside down now",
-            "now she\u2019s right side up and smiling at you"
+            "she\u2019s upsdog_tage down now",
+            "now she\u2019s right sdog_tage up and smiling at you"
         ],
         "rating_value": 0,
         "rating_count": 0
     },
     {
-        "id": 134,
+        "dog_tag": 134,
         "name": "Koda",
-        "description": "She was hit by a car last week. Had some internal bleeding, but is doing much better now. Only a little pupset she can\u2019t play while she heals. We\u2019ve covered the remaining cost of her care. Please consider getting pet health insurance. It\u2019s best to be puppared.",
+        "description": "She was hit by a car last week. Had some internal bleeding, but is doing much better now. Only a little pupset she can\u2019t play while she heals. We\u2019ve covered the remaining cost of her care. Please consdog_tager getting pet health insurance. It\u2019s best to be puppared.",
         "source_link": "https://t.co/q08bWZn0QM",
         "donation_link": null,
         "media_links": [
@@ -2329,7 +2329,7 @@
         "rating_count": 0
     },
     {
-        "id": 135,
+        "dog_tag": 135,
         "name": "Buford",
         "description": "He\u2019s a proud member of our @JustFoodForDogs Supper Club. Was hoping the food would make his legs grow but it only worked on his ears. Still",
         "source_link": "https://t.co/tTwSRgWTPT",
@@ -2346,7 +2346,7 @@
         "rating_count": 0
     },
     {
-        "id": 136,
+        "dog_tag": 136,
         "name": "Patsy",
         "description": "She fell asleep in the rain and is now convinced she\u2019s having an out-of-body experience.",
         "source_link": "https://t.co/IBydhfScbp",
@@ -2361,9 +2361,9 @@
         "rating_count": 0
     },
     {
-        "id": 137,
+        "dog_tag": 137,
         "name": "Piggy",
-        "description": "She noticed you didn't finish your sandwich. Wonders what might happen to the rest of it. Perhaps it could be given to someone. Maybe a good girl.",
+        "description": "She noticed you ddog_tagn't finish your sandwich. Wonders what might happen to the rest of it. Perhaps it could be given to someone. Maybe a good girl.",
         "source_link": "https://t.co/aHOVNVvQC8",
         "donation_link": null,
         "media_links": [
@@ -2376,7 +2376,7 @@
         "rating_count": 0
     },
     {
-        "id": 138,
+        "dog_tag": 138,
         "name": "Stumpy",
         "description": "She loves showing people her perfect smile. Waiting for you to applaud.",
         "source_link": "https://t.co/woWIXHaBa9",
@@ -2391,7 +2391,7 @@
         "rating_count": 0
     },
     {
-        "id": 139,
+        "dog_tag": 139,
         "name": "Hagar",
         "description": "He is watching you watch his favorite movie and wants to make sure you laugh at the funny parts.",
         "source_link": "https://t.co/Fjf3C9pv8O",
@@ -2406,7 +2406,7 @@
         "rating_count": 0
     },
     {
-        "id": 140,
+        "dog_tag": 140,
         "name": "Hank",
         "description": "He found a big dog bone during a walk and ate it whole before his human could react. It caused an obstruction and he had to have emergency surgery to remove it. We\u2019ve covered the remaining cost for his care. He\u2019s agreed to try really hard not to do it again.",
         "source_link": "https://t.co/hII7JG5fIZ",
@@ -2419,13 +2419,13 @@
         "alternate_texts": [
             "A brown pitbull is looking up at the camera",
             "A brown pitbull is laying on a couch",
-            "A screenshot showing that WeRateDogs has covered the rest of this dog\u2019s fundraiser need. Please consider getting Trupanion medical insurance for the life of your pet, so that you never have to send us your own fundraiser."
+            "A screenshot showing that WeRateDogs has covered the rest of this dog\u2019s fundraiser need. Please consdog_tager getting Trupanion medical insurance for the life of your pet, so that you never have to send us your own fundraiser."
         ],
         "rating_value": 0,
         "rating_count": 0
     },
     {
-        "id": 141,
+        "dog_tag": 141,
         "name": "Riley",
         "description": "His human put a donut pillow on him and he loves it so much he won\u2019t let anyone take it off.",
         "source_link": "https://t.co/l9RrLjqFf4",
@@ -2444,7 +2444,7 @@
         "rating_count": 0
     },
     {
-        "id": 142,
+        "dog_tag": 142,
         "name": "Rusty and Coop",
         "description": "Rusty\u2019s hugging technique is still aggressive and a little bit overwhelming. Grateful he has a friend to practice on.",
         "source_link": "https://t.co/U4ZDi7q91H",
@@ -2463,9 +2463,9 @@
         "rating_count": 0
     },
     {
-        "id": 143,
+        "dog_tag": 143,
         "name": "Muffin",
-        "description": "She was rescued in the aftermath of Hurricane Ida by @LASPCA. They\u2019ve been working nonstop to rescue displaced animals and provide vet care to affected communities. They desperately need donations through the link below.",
+        "description": "She was rescued in the aftermath of Hurricane dog_taga by @LASPCA. They\u2019ve been working nonstop to rescue displaced animals and provdog_tage vet care to affected communities. They desperately need donations through the link below.",
         "source_link": "https://t.co/PfphSGH2Kq",
         "donation_link": "https://t.co/EoI5ou6wDw",
         "media_links": [
@@ -2478,7 +2478,7 @@
         "rating_count": 0
     },
     {
-        "id": 144,
+        "dog_tag": 144,
         "name": "Pizza Dog",
         "description": "He\u2019s the very good boy in Marvel Studios\u2019 Hawkeye. Thinks his nickname is fitting but would have also accepted \u201cPupperoni.\u201d",
         "source_link": "https://t.co/sI0zLUYwuz",
@@ -2492,14 +2492,14 @@
         "alternate_texts": [
             "golden retriever with one eye at a diner. he\u2019s looking up at you wondering where his slice of pizza is",
             "he\u2019s now sitting on a stoop with Hawkeye and Kate",
-            "now he\u2019s outside, looking a little dirty, probably wondering where his pizza is",
-            "he\u2019s inside on a couch looking all cozy. he has christmas themed antlers and a giant red bow around his neck"
+            "now he\u2019s outsdog_tage, looking a little dirty, probably wondering where his pizza is",
+            "he\u2019s insdog_tage on a couch looking all cozy. he has christmas themed antlers and a giant red bow around his neck"
         ],
         "rating_value": 0,
         "rating_count": 0
     },
     {
-        "id": 145,
+        "dog_tag": 145,
         "name": "Finn",
         "description": "He goes door to door asking if anybody has seen the good boy. They have now, of course.",
         "source_link": "https://t.co/ISn9nFux7B",
@@ -2514,9 +2514,9 @@
         "rating_count": 0
     },
     {
-        "id": 146,
+        "dog_tag": 146,
         "name": "Champ",
-        "description": "He\u2019s pup for adoption through Wags and Walks in Nashville. His ideal human likes snuggling and that\u2019s a nonnegotiable. He does well will other pups and you can apply to adopt him below.",
+        "description": "He\u2019s pup for adoption through Wags and Walks in Nashville. His dog_tageal human likes snuggling and that\u2019s a nonnegotiable. He does well will other pups and you can apply to adopt him below.",
         "source_link": "https://t.co/7HWEEfsP8z",
         "donation_link": "https://t.co/9q6EiuZq21",
         "media_links": [
@@ -2529,7 +2529,7 @@
         "rating_count": 0
     },
     {
-        "id": 147,
+        "dog_tag": 147,
         "name": "Chester and Chelsea",
         "description": "Chelsea's love language is physical touch. Chester's is words of affirmation but he does not mind the cuddles because quality time works for him too. Both",
         "source_link": "https://t.co/rzER5Yx7pR",
@@ -2550,7 +2550,7 @@
         "rating_count": 0
     },
     {
-        "id": 148,
+        "dog_tag": 148,
         "name": "Barron and his son, Carlos",
         "description": "Carlos just came home from college after barely surviving finals. Barron missed him a whole bunch and will not leave him alone. Both",
         "source_link": "https://t.co/VV6XSUS0IK",
@@ -2559,13 +2559,13 @@
             "https://pbs.twimg.com/media/FGiBCA8UYAQ5Uq6.jpg"
         ],
         "alternate_texts": [
-            "an adult golden retriever smiling wide close to the camera. a puppy golden retriever is asleep on the couch behind him"
+            "an adult golden retriever smiling wdog_tage close to the camera. a puppy golden retriever is asleep on the couch behind him"
         ],
         "rating_value": 0,
         "rating_count": 0
     },
     {
-        "id": 149,
+        "dog_tag": 149,
         "name": "Hazel",
         "description": "She knows turtlenecks can be a controversial fashion choice... but not when you look this h*ckin good in them.",
         "source_link": "https://t.co/vVNxlLMUeY",
@@ -2586,7 +2586,7 @@
         "rating_count": 0
     },
     {
-        "id": 150,
+        "dog_tag": 150,
         "name": "Atlas",
         "description": "He just got his braces off. Wanted to show everyone his new smile.",
         "source_link": "https://t.co/W2so8SViCW",
@@ -2601,7 +2601,7 @@
         "rating_count": 0
     },
     {
-        "id": 151,
+        "dog_tag": 151,
         "name": "Roxie",
         "description": "Her little brother Ziggy got loose and Roxie ran after him. In classic older sibling fashion, she was the one who was hit by a car. We covered the cost of her medical care and she's feeling much better. Only a little annoyed with Ziggy.",
         "source_link": "https://t.co/7TN7aaCcWs",
@@ -2622,7 +2622,7 @@
         "rating_count": 0
     },
     {
-        "id": 152,
+        "dog_tag": 152,
         "name": "Reggie",
         "description": "He\u2019s wondering if this bus has any stops near the pet store. He\u2019s been saving for a new toy.",
         "source_link": "https://t.co/3FoxLd9E1a",
@@ -2631,15 +2631,15 @@
             "https://pbs.twimg.com/media/E-xwiCcVEAccvEc.jpg"
         ],
         "alternate_texts": [
-            "blonde golden retriever just outside a bus. the pic is from the driver\u2019s perspective. his front paws are on the first step. he looks like he just asked the driver a questions"
+            "blonde golden retriever just outsdog_tage a bus. the pic is from the driver\u2019s perspective. his front paws are on the first step. he looks like he just asked the driver a questions"
         ],
         "rating_value": 0,
         "rating_count": 0
     },
     {
-        "id": 153,
+        "dog_tag": 153,
         "name": "Beans",
-        "description": "He\u2019s available for adoption through @doggoneseattle. He asked if showing a little tongue would increase his chances of finding a home, and we said yes tbh it probably will. You can apply to adopt Beans below.",
+        "description": "He\u2019s available for adoption through @doggoneseattle. He asked if showing a little tongue would increase his chances of finding a home, and we sadog_tag yes tbh it probably will. You can apply to adopt Beans below.",
         "source_link": "https://t.co/kPF35Ez7Sk",
         "donation_link": "https://t.co/5BAU8GzU71",
         "media_links": [
@@ -2654,13 +2654,13 @@
         "rating_count": 0
     },
     {
-        "id": 154,
+        "dog_tag": 154,
         "name": "Baxter",
         "description": "He\u2019s going to need a lot of attention today. He can just tell.",
         "source_link": "https://t.co/asX2J16Ftm",
         "donation_link": null,
         "media_links": [
-            "https://pbs.twimg.com/media/FE5W6_GVEAIDEbu.jpg"
+            "https://pbs.twimg.com/media/FE5W6_GVEAdog_tagEbu.jpg"
         ],
         "alternate_texts": [
             "cocker spaniel lying on the couch next to his human. his head is resting on their shoulder and their front legs are wrapped around their arm"
@@ -2669,7 +2669,7 @@
         "rating_count": 0
     },
     {
-        "id": 155,
+        "dog_tag": 155,
         "name": "Thomas",
         "description": "He won @notonemorevet\u2019s Cutest Pet Contest, which helped raise over $10,000 for mental health resources to support veterinarians in crisis. He usually doesn\u2019t like to show off but this was for a good cause.",
         "source_link": "https://t.co/X3xFc50MWp",
@@ -2684,7 +2684,7 @@
         "rating_count": 0
     },
     {
-        "id": 156,
+        "dog_tag": 156,
         "name": "Barbas",
         "description": "He is a helpful companion from Skyrim.",
         "source_link": "https://t.co/da9gtOy3hl",
@@ -2694,16 +2694,16 @@
             "https://pbs.twimg.com/media/E9RjBN6UcAI84YF.jpg"
         ],
         "alternate_texts": [
-            "A grey, wiry-haired dog is laying in the snow and smiling. He is from a video game called Skyrim but honestly looks real to me.",
-            "A grey, wiry-haired dog is looking directly at the camera. He is from a video game called Skyrim but honestly looks real to me. There is a prompt to press the E key to talk to him. Would you press it? I sure would."
+            "A grey, wiry-haired dog is laying in the snow and smiling. He is from a vdog_tageo game called Skyrim but honestly looks real to me.",
+            "A grey, wiry-haired dog is looking directly at the camera. He is from a vdog_tageo game called Skyrim but honestly looks real to me. There is a prompt to press the E key to talk to him. Would you press it? I sure would."
         ],
         "rating_value": 0,
         "rating_count": 0
     },
     {
-        "id": 157,
+        "dog_tag": 157,
         "name": "Stone",
-        "description": "He likes to wear socks outside. It's a questionable lifestyle but we support it.",
+        "description": "He likes to wear socks outsdog_tage. It's a questionable lifestyle but we support it.",
         "source_link": "https://t.co/0QdtESXCNg",
         "donation_link": null,
         "media_links": [
@@ -2716,7 +2716,7 @@
         "rating_count": 0
     },
     {
-        "id": 158,
+        "dog_tag": 158,
         "name": "Brixton",
         "description": "He\u2019s the captain now. A little embarrassed because he already misunderstood the purpose of the poop deck.",
         "source_link": "https://t.co/xP6CUdWoKH",
@@ -2733,7 +2733,7 @@
         "rating_count": 0
     },
     {
-        "id": 159,
+        "dog_tag": 159,
         "name": "Scottie",
         "description": "He's so excited about his new collar. It's a little big for him right now, but he heard he'll grow into it.",
         "source_link": "https://t.co/0I7FTdi9RT",
@@ -2750,9 +2750,9 @@
         "rating_count": 0
     },
     {
-        "id": 160,
+        "dog_tag": 160,
         "name": "Tina and Marley",
-        "description": "Tina is a past president of @MCVMAvetmed, an organization promoting racial and ethnic diversity in the veterinary industry. Marley is the very good boy giving her very good kisses.",
+        "description": "Tina is a past presdog_tagent of @MCVMAvetmed, an organization promoting racial and ethnic diversity in the veterinary industry. Marley is the very good boy giving her very good kisses.",
         "source_link": "https://t.co/ULUBsTyF4Z",
         "donation_link": null,
         "media_links": [
@@ -2771,7 +2771,7 @@
         "rating_count": 0
     },
     {
-        "id": 161,
+        "dog_tag": 161,
         "name": "Lilly",
         "description": "She just parallel barked. Kindly requests a reward now.",
         "source_link": "https://t.co/cxLYRknMdW",
@@ -2788,7 +2788,7 @@
         "rating_count": 0
     },
     {
-        "id": 162,
+        "dog_tag": 162,
         "name": "Jeffrey",
         "description": "He's being held so he doesn't fly away.",
         "source_link": "https://t.co/mFedGuMtTx",
@@ -2803,7 +2803,7 @@
         "rating_count": 0
     },
     {
-        "id": 163,
+        "dog_tag": 163,
         "name": "Lujzi",
         "description": "She smiles wherever she goes. Learned it usually makes others smile too.",
         "source_link": "https://t.co/tgTUWkefl9",
@@ -2824,22 +2824,22 @@
         "rating_count": 0
     },
     {
-        "id": 164,
+        "dog_tag": 164,
         "name": "Wallace",
-        "description": "You said you brushed your teeth this morning but he checked your toothbrush and it was bone dry.",
+        "description": "You sadog_tag you brushed your teeth this morning but he checked your toothbrush and it was bone dry.",
         "source_link": "https://t.co/wJbuSLbVxR",
         "donation_link": null,
         "media_links": [
             "https://pbs.twimg.com/media/FBCCyMzVkAkEKIk.jpg"
         ],
         "alternate_texts": [
-            "tan and brown basset hound with beautiful green eyes stands and stares at us with a look of disappointment on his face, while his lip does a little curl on one side"
+            "tan and brown basset hound with beautiful green eyes stands and stares at us with a look of disappointment on his face, while his lip does a little curl on one sdog_tage"
         ],
         "rating_value": 0,
         "rating_count": 0
     },
     {
-        "id": 165,
+        "dog_tag": 165,
         "name": "Herbert",
         "description": "Today he was officially named the longest wiener dog in the world. He\u2019s nearly 3 feet in length, a full foot longer than your average dachshund.",
         "source_link": "https://t.co/3gLh5m22Wt",
@@ -2849,14 +2849,14 @@
             "https://pbs.twimg.com/media/FPQ7l3_X0AYSyvD.jpg"
         ],
         "alternate_texts": [
-            "the world\u2019s longest wiener dog stands outside in his three feet of glory",
+            "the world\u2019s longest wiener dog stands outsdog_tage in his three feet of glory",
             "now the wiener dog is standing on his hind legs, showing off his incredibly long body while someone takes a photo with their phone"
         ],
         "rating_value": 0,
         "rating_count": 0
     },
     {
-        "id": 166,
+        "dog_tag": 166,
         "name": "Jay",
         "description": "He thought he would grow into his ears, but they also kept growing. Not sure what to do now.",
         "source_link": "https://t.co/4oY40WYJYj",
@@ -2873,7 +2873,7 @@
         "rating_count": 0
     },
     {
-        "id": 167,
+        "dog_tag": 167,
         "name": "Chad",
         "description": "He\u2019s a very good boy. Likes being held. Fluffy and portable. Weird bark but that\u2019s okay.",
         "source_link": "https://t.co/snjYAzjB2M",
@@ -2890,9 +2890,9 @@
         "rating_count": 0
     },
     {
-        "id": 168,
+        "dog_tag": 168,
         "name": "Apple",
-        "description": "The best part of her day is hearing about yours. Hopes it went well but it\u2019s ok if it didn't. She's not going anywhere.",
+        "description": "The best part of her day is hearing about yours. Hopes it went well but it\u2019s ok if it ddog_tagn't. She's not going anywhere.",
         "source_link": "https://t.co/j5R1J0jY6f",
         "donation_link": null,
         "media_links": [
@@ -2905,7 +2905,7 @@
         "rating_count": 0
     },
     {
-        "id": 169,
+        "dog_tag": 169,
         "name": "Vixen",
         "description": "He really likes bananas. Steals them when he thinks nobody's watching.",
         "source_link": "https://t.co/6tbmOrJASv",
@@ -2922,7 +2922,7 @@
         "rating_count": 0
     },
     {
-        "id": 170,
+        "dog_tag": 170,
         "name": "Earl",
         "description": "He found a hat. Nervous about what you think of it.",
         "source_link": "https://t.co/V4yY5Bir7D",
@@ -2937,7 +2937,7 @@
         "rating_count": 0
     },
     {
-        "id": 171,
+        "dog_tag": 171,
         "name": "Jamesy",
         "description": "He gives a single tender kiss to every other pup he sees on his walk. Very kind of him.",
         "source_link": "https://t.co/3riB3BadBK",
@@ -2947,14 +2947,14 @@
             "https://pbs.twimg.com/media/FHEfojvX0AE5NZB.jpg"
         ],
         "alternate_texts": [
-            "black and white lab/collie mix puppy sitting on the sidewalk, looking up at the camera. he\u2019s wearing a read harness. his white marks make it look like he\u2019s wearing a sock on his right foot",
-            "he\u2019s now sitting beside a french bulldog, licking his cheek. the bulldog is looking at the camera like \u201cwhy is this happening\u201d"
+            "black and white lab/collie mix puppy sitting on the sdog_tagewalk, looking up at the camera. he\u2019s wearing a read harness. his white marks make it look like he\u2019s wearing a sock on his right foot",
+            "he\u2019s now sitting besdog_tage a french bulldog, licking his cheek. the bulldog is looking at the camera like \u201cwhy is this happening\u201d"
         ],
         "rating_value": 0,
         "rating_count": 0
     },
     {
-        "id": 172,
+        "dog_tag": 172,
         "name": "the very rare Fluffy Rottweiler",
         "description": "First sighting in decades. Truly an honor to stumble across.",
         "source_link": "https://t.co/z9VPM2IvRX",
@@ -2971,7 +2971,7 @@
         "rating_count": 0
     },
     {
-        "id": 173,
+        "dog_tag": 173,
         "name": "Chloe",
         "description": "She has a degenerative disease called Laryngeal Paralysis Polyneuropothy. A tie-back surgery last year gave her a lot of comfort, but some regurgitation issues have returned. You can read her story and help her afford treatment below.",
         "source_link": "https://t.co/ohtzpXRDeq",
@@ -2984,7 +2984,7 @@
         ],
         "alternate_texts": [
             "senior chocolate lab sitting in their yard, nose close to the camera",
-            "a visible shaved spot on Chloe\u2019s neck, there\u2019s a 6 inch scar running down the side of her neck",
+            "a visible shaved spot on Chloe\u2019s neck, there\u2019s a 6 inch scar running down the sdog_tage of her neck",
             "Chloe in her yard holding a massive bone",
             "Chloe smiling really big. the background is a deep field lined with trees. mountains in the distance"
         ],
@@ -2992,7 +2992,7 @@
         "rating_count": 0
     },
     {
-        "id": 174,
+        "dog_tag": 174,
         "name": "Queenie",
         "description": "She came to @BuffaloCARES back in November with her four puppies. All her pups have found loving homes, and now it\u2019s her turn. You can apply to adopt Queenie by clicking below.",
         "source_link": "https://t.co/gkrqzOS4uN",
@@ -3009,9 +3009,9 @@
         "rating_count": 0
     },
     {
-        "id": 175,
+        "dog_tag": 175,
         "name": "Ronan",
-        "description": "He sneezed so hard his ears flipped inside out. Luckily, another sneeze flipped them back. For the things a second sneeze can\u2019t fix, he has @Trupanion.",
+        "description": "He sneezed so hard his ears flipped insdog_tage out. Luckily, another sneeze flipped them back. For the things a second sneeze can\u2019t fix, he has @Trupanion.",
         "source_link": "https://t.co/B8ZlFFFDSZ",
         "donation_link": null,
         "media_links": [
@@ -3019,16 +3019,16 @@
             "https://pbs.twimg.com/media/FMx9xiUWQAUrnRo.jpg"
         ],
         "alternate_texts": [
-            "brown boxer puppy sits in grass. he\u2019s staring up at us with his ears flipped inside out and a slightly embarrassed face",
+            "brown boxer puppy sits in grass. he\u2019s staring up at us with his ears flipped insdog_tage out and a slightly embarrassed face",
             "now the boxer puppies ears are fixed. thank goodness for second sneezes"
         ],
         "rating_value": 0,
         "rating_count": 0
     },
     {
-        "id": 176,
+        "dog_tag": 176,
         "name": "Apollo",
-        "description": "He escaped his yard and was shot by an unknown neighbor. A piece of the bullet punctured his bladder and he needed surgery to remove it. We\u2019ve paid for the remaining cost of all his medical care. He's a little annoyed this happened but is doing much better.",
+        "description": "He escaped his yard and was shot by an unknown neighbor. A piece of the bullet punctured his bladder and he needed surgery to remove it. We\u2019ve padog_tag for the remaining cost of all his medical care. He's a little annoyed this happened but is doing much better.",
         "source_link": "https://t.co/izZqJv98fw",
         "donation_link": null,
         "media_links": [
@@ -3043,7 +3043,7 @@
         "rating_count": 0
     },
     {
-        "id": 177,
+        "dog_tag": 177,
         "name": "Hunter",
         "description": "He\u2019s here to remind you that if you\u2019re feeling stressed you can always stop what you\u2019re doing and take a nap on the floor.",
         "source_link": "https://t.co/EYqlNV0vK1",
@@ -3060,9 +3060,9 @@
         "rating_count": 0
     },
     {
-        "id": 178,
+        "dog_tag": 178,
         "name": "Buster",
-        "description": "His energy can\u2019t be contained. Decided to leap from his human\u2019s arms and lost a fight with gravity. Now he needs orthopedic surgery for his fractured leg. We\u2019ve covered the cost of his pupcoming operation and wish him a swift recovery.",
+        "description": "His energy can\u2019t be contained. Decdog_taged to leap from his human\u2019s arms and lost a fight with gravity. Now he needs orthopedic surgery for his fractured leg. We\u2019ve covered the cost of his pupcoming operation and wish him a swift recovery.",
         "source_link": "https://t.co/8O15MmuJd3",
         "donation_link": null,
         "media_links": [
@@ -3079,9 +3079,9 @@
         "rating_count": 0
     },
     {
-        "id": 179,
+        "dog_tag": 179,
         "name": "Maci",
-        "description": "She heard you\u2019ve been petting other dogs. Wants you to explain yourself. Anything you have to say can be said in front of her sock monkey.",
+        "description": "She heard you\u2019ve been petting other dogs. Wants you to explain yourself. Anything you have to say can be sadog_tag in front of her sock monkey.",
         "source_link": "https://t.co/qSprPbnEHJ",
         "donation_link": null,
         "media_links": [
@@ -3094,9 +3094,9 @@
         "rating_count": 0
     },
     {
-        "id": 180,
+        "dog_tag": 180,
         "name": "Scout",
-        "description": "She recently had a stroke and lost her ability to walk. She was rushed to the vet and soon diagnosed with Immune Mediated Hemolytic Anemia. She was given a toy and a \u201cgood girl\u201d bandage. We\u2019ve paid for the rest of her vet bills and she\u2019s improving every day.",
+        "description": "She recently had a stroke and lost her ability to walk. She was rushed to the vet and soon diagnosed with Immune Mediated Hemolytic Anemia. She was given a toy and a \u201cgood girl\u201d bandage. We\u2019ve padog_tag for the rest of her vet bills and she\u2019s improving every day.",
         "source_link": "https://t.co/ehjli2TEdA",
         "donation_link": null,
         "media_links": [
@@ -3115,9 +3115,9 @@
         "rating_count": 0
     },
     {
-        "id": 181,
+        "dog_tag": 181,
         "name": "Walter",
-        "description": "He always asks if he can drive. Can't believe you finally said yes.",
+        "description": "He always asks if he can drive. Can't believe you finally sadog_tag yes.",
         "source_link": "https://t.co/TiGbThHV5E",
         "donation_link": null,
         "media_links": [
@@ -3132,9 +3132,9 @@
         "rating_count": 0
     },
     {
-        "id": 182,
+        "dog_tag": 182,
         "name": "Clark",
-        "description": "She wanted to play hide and seek with a sock. Decided swallowing it was an easy win, but her vet cheated and found it using an x-ray machine. We covered the cost of her surgery to get it out, and hope she picks a different hiding place next time.",
+        "description": "She wanted to play hdog_tage and seek with a sock. Decdog_taged swallowing it was an easy win, but her vet cheated and found it using an x-ray machine. We covered the cost of her surgery to get it out, and hope she picks a different hdog_taging place next time.",
         "source_link": "https://t.co/3U6GNWPXUx",
         "donation_link": null,
         "media_links": [
@@ -3149,7 +3149,7 @@
         "rating_count": 0
     },
     {
-        "id": 183,
+        "dog_tag": 183,
         "name": "Franklin",
         "description": "He was pleased to hear that @Trupanion covers wrinkly potatoes like himself. Even full-grown ones.",
         "source_link": "https://t.co/LuPNSJW1QJ",
@@ -3162,7 +3162,7 @@
         ],
         "alternate_texts": [
             "little wrinkly bulldog in the grass. he looks a little alarmed to be honest",
-            "he\u2019s now inside, splooting, he looks less concerned now",
+            "he\u2019s now insdog_tage, splooting, he looks less concerned now",
             "back in the grass. standing now. he most resembles a potato in this pic",
             "full grown franklin. just an absolute beast. he\u2019s wearing sunglasses"
         ],
@@ -3170,7 +3170,7 @@
         "rating_count": 0
     },
     {
-        "id": 184,
+        "dog_tag": 184,
         "name": "Aubrey",
         "description": "She\u2019s searching for her perfect someone with the help of Companion Animal Alliance in Baton Rouge, Louisiana. I\u2019m told she\u2019s the \u201cloneliest heart in the shelter\u201d and you can apply to fix that and be her human below.",
         "source_link": "https://t.co/qmPIb8Flor",
@@ -3187,7 +3187,7 @@
         "rating_count": 0
     },
     {
-        "id": 185,
+        "dog_tag": 185,
         "name": "Doogus",
         "description": "We were told someone laughed at his pj\u2019s, so now he needs your help to feel better.",
         "source_link": "https://t.co/hiJkgifb4d",
@@ -3202,7 +3202,7 @@
         "rating_count": 0
     },
     {
-        "id": 186,
+        "dog_tag": 186,
         "name": "Ace",
         "description": "He went to his first ever baseball game AND got to try a hot dog. Was excited about both, but a little bit more so for the hot dog.",
         "source_link": "https://t.co/xZ2JH1i9K9",
@@ -3211,13 +3211,13 @@
             "https://pbs.twimg.com/media/FAAmXwDVIAQAkwu.jpg"
         ],
         "alternate_texts": [
-            "pitbull sitting in the stands at a baseball game. he\u2019s got a red bandana on. he is in the middle of absolutely inhaling an entire hot dog. eyes wide and ears back. this is his dream"
+            "pitbull sitting in the stands at a baseball game. he\u2019s got a red bandana on. he is in the mdog_tagdle of absolutely inhaling an entire hot dog. eyes wdog_tage and ears back. this is his dream"
         ],
         "rating_value": 0,
         "rating_count": 0
     },
     {
-        "id": 187,
+        "dog_tag": 187,
         "name": "Buckaroo",
         "description": "He is 12 years old and sometimes he gets sore. Warm baths always help him feel better. His dad holds his pillow and his brothers come by for emotional support.",
         "source_link": "https://t.co/mW7ubibWkp",
@@ -3232,7 +3232,7 @@
         "rating_count": 0
     },
     {
-        "id": 188,
+        "dog_tag": 188,
         "name": "Millie and Wilbur",
         "description": "They've always flirted with each other on walks. Today they finally booped snoots. A big step. Both",
         "source_link": "https://t.co/sf83u6d8QK",
@@ -3247,9 +3247,9 @@
         "rating_count": 0
     },
     {
-        "id": 189,
+        "dog_tag": 189,
         "name": "Max",
-        "description": "He\u2019s an aspiring landscaper. Believes in doing all the hard work himself. Isn\u2019t afraid to get his paws dirty.",
+        "description": "He\u2019s an aspiring landscaper. Believes in doing all the hard work himself. Isn\u2019t afradog_tag to get his paws dirty.",
         "source_link": "https://t.co/a2zsE8fR6N",
         "donation_link": null,
         "media_links": [
@@ -3262,7 +3262,7 @@
         "rating_count": 0
     },
     {
-        "id": 190,
+        "dog_tag": 190,
         "name": "Kabosu",
         "description": "She just turned 16 years old. She\u2019s a rescue Shiba Inu who changed the world with an impromptu photoshoot back in 2010. Her slightly raised eyebrows and crossed paws remain one the greatest reaction images of all time.",
         "source_link": "https://t.co/PeaY0gCfRu",
@@ -3275,17 +3275,17 @@
         ],
         "alternate_texts": [
             "senior shiba inu sitting and smiling with a birthday hat on. she\u2019s atop a big pink bed. happy birthday is written in big letters behind her",
-            "she\u2019s smiling wide in her car seat. in a pink polkadot harness",
-            "an image from the iconic photoshoot on a beige couch. her mouth is wide open",
+            "she\u2019s smiling wdog_tage in her car seat. in a pink polkadot harness",
+            "an image from the iconic photoshoot on a beige couch. her mouth is wdog_tage open",
             "the legendary image. her eyebrows slightly raised and paws crossed. she has a look of concern"
         ],
         "rating_value": 0,
         "rating_count": 0
     },
     {
-        "id": 191,
+        "dog_tag": 191,
         "name": "Buster and Roscoe",
-        "description": "They were separated from their humans during Hurricane Ida. Both were reunited this week by @LASPCA. You all raised over $43k for their relief fund, and helped make this possible.",
+        "description": "They were separated from their humans during Hurricane dog_taga. Both were reunited this week by @LASPCA. You all raised over $43k for their relief fund, and helped make this possible.",
         "source_link": "https://t.co/omPVE3MpVK",
         "donation_link": null,
         "media_links": [
@@ -3293,16 +3293,16 @@
             "https://pbs.twimg.com/media/E_WtnFWVcAMdnOK.jpg"
         ],
         "alternate_texts": [
-            "black and white dog standing up hugging middle aged white male. the man has is eyes closed and is smiling. the dog\u2019s tail is so blurry. they are beside a row of kennels",
-            "a rottweiler on his back legs in the lap of a middle aged black male who is hugging him. they are in the lobby of the shelter. the dog\u2019s tongue is sticking out slightly"
+            "black and white dog standing up hugging mdog_tagdle aged white male. the man has is eyes closed and is smiling. the dog\u2019s tail is so blurry. they are besdog_tage a row of kennels",
+            "a rottweiler on his back legs in the lap of a mdog_tagdle aged black male who is hugging him. they are in the lobby of the shelter. the dog\u2019s tongue is sticking out slightly"
         ],
         "rating_value": 0,
         "rating_count": 0
     },
     {
-        "id": 192,
+        "dog_tag": 192,
         "name": "Oslo",
-        "description": "Ever since he came home, he\u2019s been an absolute wrecking ball. So far he\u2019s avoided major accidents, but according to his parents, it\u2019s only a matter of time. That\u2019s why he\u2019s covered with @Trupanion, because it\u2019s best to be puppared.",
+        "description": "Ever since he came home, he\u2019s been an absolute wrecking ball. So far he\u2019s avodog_taged major accdog_tagents, but according to his parents, it\u2019s only a matter of time. That\u2019s why he\u2019s covered with @Trupanion, because it\u2019s best to be puppared.",
         "source_link": "https://t.co/t0bbFiAE5t",
         "donation_link": null,
         "media_links": [
@@ -3314,14 +3314,14 @@
         "alternate_texts": [
             "husky malamute shepherd mix puppy. lying on a towel in the backseat of a car. his right ear is at attention",
             "sitting in front of a car with the license plat \u201cPUPPY\u201d implying it is his vehicle",
-            "at the beach now. he\u2019s entering the frame from the left. he\u2019s giving you side eye and his tongue is fully extended with a  little curl at the end",
+            "at the beach now. he\u2019s entering the frame from the left. he\u2019s giving you sdog_tage eye and his tongue is fully extended with a  little curl at the end",
             "he is now a little older, sitting in front of 4 other dogs. they\u2019re all facing forward. he appears to be their leader"
         ],
         "rating_value": 0,
         "rating_count": 0
     },
     {
-        "id": 193,
+        "dog_tag": 193,
         "name": "Theo",
         "description": "He had a severe upper respiratory infection as a puppy. @Trupanion preapproved his treatment, and he got the medical care he needed right away. Prefers to worry about his choice of bow tie, not his vet bills.",
         "source_link": "https://t.co/kCMRrQ4wc6",
@@ -3334,15 +3334,15 @@
         ],
         "alternate_texts": [
             "black dog sitting in grass looks up with his tongue out and his blue leash laying on the ground in front of him, not a worry in the world",
-            "sitting black dog is wearing a red and black bow tie. he looks up with wide eyes and tiny teeth showing",
+            "sitting black dog is wearing a red and black bow tie. he looks up with wdog_tage eyes and tiny teeth showing",
             "black dog wearing an orange bow tie looks back and up at us with a smile on his face",
-            "black dog wearing a fancy suit bow tie sits on a cream blanket outside"
+            "black dog wearing a fancy suit bow tie sits on a cream blanket outsdog_tage"
         ],
         "rating_value": 0,
         "rating_count": 0
     },
     {
-        "id": 194,
+        "dog_tag": 194,
         "name": "Sully",
         "description": "He had a misunderstanding with the oak tree next door. Thought all the acorns it was dropping were for him. Ate a toxic amount and needed surgery to empty his stomach. We\u2019ve covered the cost of his care and suggest he reevaluates his friendship with the tree.",
         "source_link": "https://t.co/Z7JVuY4nfP",
@@ -3363,7 +3363,7 @@
         "rating_count": 0
     },
     {
-        "id": 195,
+        "dog_tag": 195,
         "name": "Sheba, an Australian Shepherd mix available through @heavencanwaitlv in Las Vegas",
         "description": "She needs a patient human who will continue her training. Also, she can make her ears disappear. You can learn more about her below.",
         "source_link": "https://t.co/5jV9NFptRc",
@@ -3380,7 +3380,7 @@
         "rating_count": 0
     },
     {
-        "id": 196,
+        "dog_tag": 196,
         "name": "Beverly",
         "description": "Please don\u2019t point out her wrinkles unless you\u2019re going to cherish them.",
         "source_link": "https://t.co/mG2B6Gc0Ft",
@@ -3399,9 +3399,9 @@
         "rating_count": 0
     },
     {
-        "id": 197,
+        "dog_tag": 197,
         "name": "Daisy and Luna",
-        "description": "Daisy doesn\u2019t like car rides so Luna comforts her until they both fall asleep. H*ckin heartwarming.",
+        "description": "Daisy doesn\u2019t like car rdog_tages so Luna comforts her until they both fall asleep. H*ckin heartwarming.",
         "source_link": "https://t.co/lH07PmHJWh",
         "donation_link": null,
         "media_links": [
@@ -3416,7 +3416,7 @@
         "rating_count": 0
     },
     {
-        "id": 198,
+        "dog_tag": 198,
         "name": "Maggie",
         "description": "She\u2019s not sure what your fortune says, but if it\u2019s a good one she really hopes it comes true.",
         "source_link": "https://t.co/RK9OKysUXH",
@@ -3431,7 +3431,7 @@
         "rating_count": 0
     },
     {
-        "id": 199,
+        "dog_tag": 199,
         "name": "Kato",
         "description": "He somehow swallowed an entire roll of gauze and needed emergency surgery to remove it. We\u2019ve covered the cost of his medical care so far. He still hasn\u2019t been able to come home, so please join us in wishing him well.",
         "source_link": "https://t.co/nLqquR6Qnr",
@@ -3452,9 +3452,9 @@
         "rating_count": 0
     },
     {
-        "id": 200,
+        "dog_tag": 200,
         "name": "Luna",
-        "description": "She jumped the fence in her yard while chasing a squirrel and was hit by a car. We covered the rest of her medical bills and she\u2019s doing much better now. We tried contacting the squirrel, because they are obviously liable, but they didn\u2019t return our emails.",
+        "description": "She jumped the fence in her yard while chasing a squirrel and was hit by a car. We covered the rest of her medical bills and she\u2019s doing much better now. We tried contacting the squirrel, because they are obviously liable, but they ddog_tagn\u2019t return our emails.",
         "source_link": "https://t.co/GaGKdkSMPb",
         "donation_link": null,
         "media_links": [
@@ -3469,14 +3469,14 @@
         "rating_count": 0
     },
     {
-        "id": 201,
+        "dog_tag": 201,
         "name": "Saoirse",
         "description": "She was on track to become one of the best snowflake collectors of her generation. Sadly, she developed hip dysplasia and had to take a break to fix it. @Trupanion helped cover those medical bills, and now she\u2019s once again coming for the throne.",
         "source_link": "https://t.co/Byu0WRlsN6",
         "donation_link": null,
         "media_links": [
             "https://pbs.twimg.com/media/FDNPwuOVEAEzIRb.jpg",
-            "https://pbs.twimg.com/media/FDNPwuPUYAIdQVF.jpg"
+            "https://pbs.twimg.com/media/FDNPwuPUYAdog_tagQVF.jpg"
         ],
         "alternate_texts": [
             "newfie puppy with snowflakes on her head. she\u2019s mostly white but the majority of her head is black, making the snowflakes stand out",
@@ -3486,7 +3486,7 @@
         "rating_count": 0
     },
     {
-        "id": 202,
+        "dog_tag": 202,
         "name": "Beanka",
         "description": "He'd like to know who invited the sun at this ungodly hour.",
         "source_link": "https://t.co/NeS6lHer4v",
@@ -3505,13 +3505,13 @@
         "rating_count": 0
     },
     {
-        "id": 203,
+        "dog_tag": 203,
         "name": "Meatball",
         "description": "He's going home for the very first time. So excited to have a human of his own. Thinking about what he's going to call you. Maybe Bob.",
         "source_link": "https://t.co/jOZw2fH3Xk",
         "donation_link": null,
         "media_links": [
-            "https://pbs.twimg.com/media/FN6zIDyUYAIfrj1.jpg"
+            "https://pbs.twimg.com/media/FN6zdog_tagyUYAIfrj1.jpg"
         ],
         "alternate_texts": [
             "A tiny brown and tan puppy with a yellow collar is laying with his paws tucked in on a green blanket. He is in a crate & looks at you deeply with his nose between the bars"
@@ -3520,9 +3520,9 @@
         "rating_count": 0
     },
     {
-        "id": 204,
+        "dog_tag": 204,
         "name": "Ruckus",
-        "description": "His humans don\u2019t have kids, so they take him to see the lights every year. He absolutely loves it.",
+        "description": "His humans don\u2019t have kdog_tags, so they take him to see the lights every year. He absolutely loves it.",
         "source_link": "https://t.co/rqPQkPbUyR",
         "donation_link": null,
         "media_links": [
@@ -3535,9 +3535,9 @@
         "rating_count": 0
     },
     {
-        "id": 205,
+        "dog_tag": 205,
         "name": "Bailey",
-        "description": "She had an unfortunate encounter with a bee. Decided to return to the scene of the crime in search of an apology.",
+        "description": "She had an unfortunate encounter with a bee. Decdog_taged to return to the scene of the crime in search of an apology.",
         "source_link": "https://t.co/8tiuhKq64R",
         "donation_link": null,
         "media_links": [
@@ -3546,13 +3546,13 @@
         ],
         "alternate_texts": [
             "tan american staffordshire terrier with a very swollen cheek",
-            "no more swollen cheek, she\u2019s outside surrounded by pink flowers"
+            "no more swollen cheek, she\u2019s outsdog_tage surrounded by pink flowers"
         ],
         "rating_value": 0,
         "rating_count": 0
     },
     {
-        "id": 206,
+        "dog_tag": 206,
         "name": "Sundae",
         "description": "She was rescued from a hoarding situation. Had never been indoors before. This is her very first nap, on a bed, in a home. Already an expert.",
         "source_link": "https://t.co/PeyCqh2Cko",
@@ -3567,9 +3567,9 @@
         "rating_count": 0
     },
     {
-        "id": 207,
+        "dog_tag": 207,
         "name": "Lou",
-        "description": "He's at his first vet visit. Waiting for test results to see if he's a good boy. Feeling confident. He studied hard for this.",
+        "description": "He's at his first vet visit. Waiting for test results to see if he's a good boy. Feeling confdog_tagent. He studied hard for this.",
         "source_link": "https://t.co/ie65v0gUXU",
         "donation_link": null,
         "media_links": [
@@ -3577,16 +3577,16 @@
             "https://pbs.twimg.com/media/FPHF4KsXMAAzUv1.jpg"
         ],
         "alternate_texts": [
-            "small, black and tan dachshund puppy is standing on the counter in a vet\u2019s office looking very pleased. he\u2019s confident he\u2019s a good boy",
+            "small, black and tan dachshund puppy is standing on the counter in a vet\u2019s office looking very pleased. he\u2019s confdog_tagent he\u2019s a good boy",
             "the dachshund puppy is now laying on the counter and looking at you with puppy dog eyes, proving he is a good boy"
         ],
         "rating_value": 0,
         "rating_count": 0
     },
     {
-        "id": 208,
+        "dog_tag": 208,
         "name": "Ollie",
-        "description": "He noticed his human drove past the turn for the dog park. Jumped over his protective seat barrier to try to correct them. Ended up falling to the floor and breaking his knee. We paid for his medical expenses and he'll be back at the park in no time.",
+        "description": "He noticed his human drove past the turn for the dog park. Jumped over his protective seat barrier to try to correct them. Ended up falling to the floor and breaking his knee. We padog_tag for his medical expenses and he'll be back at the park in no time.",
         "source_link": "https://t.co/oKSEploqAS",
         "donation_link": null,
         "media_links": [
@@ -3601,7 +3601,7 @@
         "rating_count": 0
     },
     {
-        "id": 209,
+        "dog_tag": 209,
         "name": "Kiko and Tofu",
         "description": "They were walking along the beach when Tofu started floating away. Somebody call someone. Anybody. Please. Both",
         "source_link": "https://t.co/HR7qxDuEut",
@@ -3611,14 +3611,14 @@
             "https://pbs.twimg.com/media/FBl6XpsXMAE0IQe.jpg"
         ],
         "alternate_texts": [
-            "two red, furry dogs are on the beach. the left dog is turning back to face us with a concerned look on their face as they\u2019re caught mid-bark. the right dog is in mid-air",
+            "two red, furry dogs are on the beach. the left dog is turning back to face us with a concerned look on their face as they\u2019re caught mdog_tag-bark. the right dog is in mdog_tag-air",
             "oh h*ck now the right dog has floated even higher! left dog is still very much alarmed, barking for help"
         ],
         "rating_value": 0,
         "rating_count": 0
     },
     {
-        "id": 210,
+        "dog_tag": 210,
         "name": "Oliver",
         "description": "He wanted you to have these flowers. Picked them out himself. Hopes they\u2019re your favorite color.",
         "source_link": "https://t.co/Amknm5sOJ8",
@@ -3635,7 +3635,7 @@
         "rating_count": 0
     },
     {
-        "id": 211,
+        "dog_tag": 211,
         "name": "Mattie",
         "description": "She's extremely dangerous. Will bite your h*ckin finger right off.",
         "source_link": "https://t.co/V6TRUD0qBp",
@@ -3650,7 +3650,7 @@
         "rating_count": 0
     },
     {
-        "id": 212,
+        "dog_tag": 212,
         "name": "Dotty",
         "description": "There was a small miscommunication about what making snow angels meant. Modeled it after herself.",
         "source_link": "https://t.co/w8Gx4j5XOc",
@@ -3665,9 +3665,9 @@
         "rating_count": 0
     },
     {
-        "id": 213,
+        "dog_tag": 213,
         "name": "Lola",
-        "description": "Today she won first place in the \u201cMost Gorgeous Oldie\u201d competition. Always knew she had what it takes but it\u2019s nice to be validated.",
+        "description": "Today she won first place in the \u201cMost Gorgeous Oldie\u201d competition. Always knew she had what it takes but it\u2019s nice to be valdog_tagated.",
         "source_link": "https://t.co/5EB7uffEgM",
         "donation_link": null,
         "media_links": [
@@ -3680,7 +3680,7 @@
         "rating_count": 0
     },
     {
-        "id": 214,
+        "dog_tag": 214,
         "name": "Grendel",
         "description": "He was wondering if you\u2019d like a strawberry. He has extras so it\u2019s really no pawblem.",
         "source_link": "https://t.co/rh0EvP0u28",
@@ -3690,14 +3690,14 @@
             "https://pbs.twimg.com/media/Etv7pdjVkAE6NR5.jpg"
         ],
         "alternate_texts": [
-            "silver lab mix with some white spots, holding a perfectly preserved strawberry. eyes wide like she\u2019s waiting for your answer",
+            "silver lab mix with some white spots, holding a perfectly preserved strawberry. eyes wdog_tage like she\u2019s waiting for your answer",
             "very similar to the first pic, she\u2019s just closer to you"
         ],
         "rating_value": 0,
         "rating_count": 0
     },
     {
-        "id": 215,
+        "dog_tag": 215,
         "name": "Denim Dog",
         "description": "She is not the hero we deserve, but the one we need right now. With great style comes great responsibility.",
         "source_link": "https://t.co/eUCkvu6IfT",
@@ -3710,13 +3710,13 @@
         "alternate_texts": [
             "senior black lab sitting on her bed in a blue denim vest",
             "now she looks a little nervous in it standing at the top of the stairs",
-            "now she looks extremely confident in it outside with a rope toy"
+            "now she looks extremely confdog_tagent in it outsdog_tage with a rope toy"
         ],
         "rating_value": 0,
         "rating_count": 0
     },
     {
-        "id": 216,
+        "dog_tag": 216,
         "name": "Obi-Wan",
         "description": "He really thought the sand would taste better.",
         "source_link": "https://t.co/jEr844JSdQ",
@@ -3731,7 +3731,7 @@
         "rating_count": 0
     },
     {
-        "id": 217,
+        "dog_tag": 217,
         "name": "Rudder",
         "description": "He thought maybe you would like a sunflower this morning. Picked it out all by himself.",
         "source_link": "https://t.co/QM4XJzjgGc",
@@ -3748,9 +3748,9 @@
         "rating_count": 0
     },
     {
-        "id": 218,
+        "dog_tag": 218,
         "name": "Duke",
-        "description": "He wasn\u2019t very confident when he was little, but then he turned 1. Had a major glow-pup.",
+        "description": "He wasn\u2019t very confdog_tagent when he was little, but then he turned 1. Had a major glow-pup.",
         "source_link": "https://t.co/QTY8CNPWhD",
         "donation_link": null,
         "media_links": [
@@ -3765,7 +3765,7 @@
         "rating_count": 0
     },
     {
-        "id": 219,
+        "dog_tag": 219,
         "name": "Cookie",
         "description": "Some people wear their heart on their sleeve. She wears hers on her butt.",
         "source_link": "https://t.co/xYWgS1BBrD",
@@ -3782,7 +3782,7 @@
         "rating_count": 0
     },
     {
-        "id": 220,
+        "dog_tag": 220,
         "name": "Kevin",
         "description": "It\u2019s suspected he was abused in his prior home. He arrived at a shelter with an injured knee and torn ligaments in both back legs. He\u2019s safe and loved now, but needs a few operations to live a pain-free life. You can help him below.",
         "source_link": "https://t.co/cIB3KKG98q",
@@ -3801,7 +3801,7 @@
         "rating_count": 0
     },
     {
-        "id": 221,
+        "dog_tag": 221,
         "name": "Teddy",
         "description": "He\u2019s found several clues that indicate there\u2019s a good boy around here somewhere. Maybe you\u2019ve seen him.",
         "source_link": "https://t.co/v8Z2fvbf36",
@@ -3810,13 +3810,13 @@
             "https://pbs.twimg.com/media/FFihj9DVEAA59tv.jpg"
         ],
         "alternate_texts": [
-            "dachshund dressed as sherlock holmes. he\u2019s giving you side eye like he knows something"
+            "dachshund dressed as sherlock holmes. he\u2019s giving you sdog_tage eye like he knows something"
         ],
         "rating_value": 0,
         "rating_count": 0
     },
     {
-        "id": 222,
+        "dog_tag": 222,
         "name": "Sadie and Niki",
         "description": "They have to be touching at all times. Doesn't matter how.",
         "source_link": "https://t.co/7HWvwUs51C",
@@ -3830,16 +3830,16 @@
         "alternate_texts": [
             "a light lab puppy stares directly at us, she is laying down with her front leg resting over a red lab puppy that she is laying directly next to. the red lab puppy is chewing on a blue cloth",
             "the two puppies are laying on the top step of a staircase and staring down. the light lab puppy has her right paw stretched out and touching the red lab puppy",
-            "the two puppies are laying outside in partial sunlight. the red lab puppy has her whole head resting on top of the light lab puppy's head, both napping hard",
+            "the two puppies are laying outsdog_tage in partial sunlight. the red lab puppy has her whole head resting on top of the light lab puppy's head, both napping hard",
             "the two lab puppies are now grown, but they lay facing each other with their noses touching, and their legs reaching out to each other"
         ],
         "rating_value": 0,
         "rating_count": 0
     },
     {
-        "id": 223,
+        "dog_tag": 223,
         "name": "Odzi",
-        "description": "He wanted to try ding-dong ditching. Didn't quite catch how the last part works. Would love for you to let him in so he can say hi.",
+        "description": "He wanted to try ding-dong ditching. Ddog_tagn't quite catch how the last part works. Would love for you to let him in so he can say hi.",
         "source_link": "https://t.co/o0dMElP7gh",
         "donation_link": null,
         "media_links": [
@@ -3850,7 +3850,7 @@
         ],
         "alternate_texts": [
             "a tan shiba inu stares at you through a peep hole as he\u2019s attempting a ding dong ditch",
-            "shiba is still outside the door, this time with a little smile on his face",
+            "shiba is still outsdog_tage the door, this time with a little smile on his face",
             "the shiba\u2019s nose is even closer to us now",
             "the shiba is still at the door. hasn\u2019t quite figured out the ditch part of ding dong ditching"
         ],
@@ -3858,26 +3858,26 @@
         "rating_count": 0
     },
     {
-        "id": 224,
+        "dog_tag": 224,
         "name": "Titus and Roo",
         "description": "Titus doesn\u2019t stop drooling so Roo got a raincoat for when they hang out. It seems dramatic but it\u2019s not.",
-        "source_link": "https://t.co/UIdm93vcQY",
+        "source_link": "https://t.co/Udog_tagm93vcQY",
         "donation_link": null,
         "media_links": [
             "https://pbs.twimg.com/media/FD8-BDWVkAst1pN.jpg",
             "https://pbs.twimg.com/media/FD8-BDXUcAEZYq7.jpg"
         ],
         "alternate_texts": [
-            "massive black newfoundland with two long strings of drool hanging from his mouth. a golden mix sits beside him in a yellow raincoat",
+            "massive black newfoundland with two long strings of drool hanging from his mouth. a golden mix sits besdog_tage him in a yellow raincoat",
             "now it\u2019s just Roo, looking up at you in the raincoat as if to say \u201chow can you blame me for these precautions\u201d"
         ],
         "rating_value": 0,
         "rating_count": 0
     },
     {
-        "id": 225,
+        "dog_tag": 225,
         "name": "Cherry",
-        "description": "She broke her leg chasing a rabbit last weekend. Claims the rabbit started it and she was simply defending her honor. We\u2019ve covered the remaining cost of her surgery. Do us a favor and consider getting pet health insurance. It\u2019s best to be puppared.",
+        "description": "She broke her leg chasing a rabbit last weekend. Claims the rabbit started it and she was simply defending her honor. We\u2019ve covered the remaining cost of her surgery. Do us a favor and consdog_tager getting pet health insurance. It\u2019s best to be puppared.",
         "source_link": "https://t.co/JczIn5S1Wk",
         "donation_link": null,
         "media_links": [
@@ -3896,7 +3896,7 @@
         "rating_count": 0
     },
     {
-        "id": 226,
+        "dog_tag": 226,
         "name": "Tony",
         "description": "He\u2019s been patiently waiting for hot girl summer to end so he can start his wrinkly potato autumn.",
         "source_link": "https://t.co/SB3LGPopLg",
@@ -3909,7 +3909,7 @@
         ],
         "alternate_texts": [
             "baby english bulldog standing on a rock. colored leaves are on the ground around him. his tongue is out",
-            "he\u2019s now on a bench beside a massive pumpkin. tongue still out",
+            "he\u2019s now on a bench besdog_tage a massive pumpkin. tongue still out",
             "same bench same pumpkins. his expression is now one of awe",
             "he\u2019s now leaning over a log"
         ],
@@ -3917,9 +3917,9 @@
         "rating_count": 0
     },
     {
-        "id": 227,
+        "dog_tag": 227,
         "name": "Meyer",
-        "description": "He has to hold somebody's hand during car rides. Also wearing a seatbelt because he\u2019s responsible as h*ck.",
+        "description": "He has to hold somebody's hand during car rdog_tages. Also wearing a seatbelt because he\u2019s responsible as h*ck.",
         "source_link": "https://t.co/d89Nnj5Mdj",
         "donation_link": null,
         "media_links": [
@@ -3932,7 +3932,7 @@
         "rating_count": 0
     },
     {
-        "id": 228,
+        "dog_tag": 228,
         "name": "Sabre",
         "description": "He recently turned 14 and can no longer walk long distances, but he still loves the beach, so his humans made him a chariot.",
         "source_link": "https://t.co/umW5ncExT7",
@@ -3944,16 +3944,16 @@
             "https://pbs.twimg.com/media/FImSPryVUAAfWpK.jpg"
         ],
         "alternate_texts": [
-            "senior husky riding along the beach in a blue wagon. it was a water bottle in the front, and an umbrella stuck to the side so he stays out of the sun",
+            "senior husky rdog_taging along the beach in a blue wagon. it was a water bottle in the front, and an umbrella stuck to the sdog_tage so he stays out of the sun",
             "he\u2019s now standing on the beach. mountains and water in the background",
             "now he\u2019s lying down in the sand, eyes closes, very peaceful",
-            "him and his human are walking away. the human is pulling the chariot, and sabre is walking beside it. the ocean in the background"
+            "him and his human are walking away. the human is pulling the chariot, and sabre is walking besdog_tage it. the ocean in the background"
         ],
         "rating_value": 0,
         "rating_count": 0
     },
     {
-        "id": 229,
+        "dog_tag": 229,
         "name": "O\u2019Malley",
         "description": "That is how he sleeps. Doesn\u2019t care what you think about it.",
         "source_link": "https://t.co/eWVd8jxIOP",
@@ -3968,7 +3968,7 @@
         "rating_count": 0
     },
     {
-        "id": 230,
+        "dog_tag": 230,
         "name": "Sir Tibbles and Lukas",
         "description": "Sir Tibbles has resting grump face, so Lukas gives him spontaneous hugs. It may not look like they work, but they definitely do.",
         "source_link": "https://t.co/I091bAg62W",
@@ -3985,8 +3985,8 @@
         "rating_count": 0
     },
     {
-        "id": 231,
-        "name": "Midge and Rowan",
+        "dog_tag": 231,
+        "name": "Mdog_tagge and Rowan",
         "description": "They think they\u2019re the same size, and comfort each other with both kisses and cuddles. For anything those can\u2019t fix, they have @Trupanion.",
         "source_link": "https://t.co/77vai83x13",
         "donation_link": null,
@@ -3996,15 +3996,15 @@
         ],
         "alternate_texts": [
             "german shepherd mix getting a lick from a tiny terrier puppy",
-            "now they\u2019re both sleeping, but Midge is on Rowan\u2019s back. they\u2019re size difference is rather comical"
+            "now they\u2019re both sleeping, but Mdog_tagge is on Rowan\u2019s back. they\u2019re size difference is rather comical"
         ],
         "rating_value": 0,
         "rating_count": 0
     },
     {
-        "id": 232,
+        "dog_tag": 232,
         "name": "Jupiter",
-        "description": "She loves her rope toy but hates the idea of having to go anywhere without it\u2026 so she swallowed it. Had to have emergency surgery to remove it. We covered the cost of her care, and both she (and the toy, somehow?) are expected to make a full recovery.",
+        "description": "She loves her rope toy but hates the dog_tagea of having to go anywhere without it\u2026 so she swallowed it. Had to have emergency surgery to remove it. We covered the cost of her care, and both she (and the toy, somehow?) are expected to make a full recovery.",
         "source_link": "https://t.co/Z6MdHq61FZ",
         "donation_link": null,
         "media_links": [
