@@ -1,4 +1,5 @@
 import { FC,} from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import Modal from '../Modal.component';
 
@@ -13,8 +14,8 @@ const SettingsModal: FC<Props> = (Props) => {
     <div className='modal'>
       <Modal isShowing={Props.isShowing}>
         <h2>Settings</h2>
-        <p> This is a pararaph on settings</p>
-        <button onClick={ Props.close }>Close Modal</button>
+        <p> Settings are currently a work in progress, please return at a later date!</p>
+        <button onClick={ Props.close }><FontAwesomeIcon icon={'times'}/></button>
       </Modal>
     </div>
   );
