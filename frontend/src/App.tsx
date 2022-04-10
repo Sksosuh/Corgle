@@ -99,7 +99,7 @@ function App() {
       <Navbar></Navbar>
       <ModalRoot/>
       <div className='game'>
-        <BoardLayout imgUrls={['FUCK']} onChar={onChar} onDelete={onDelete} onEnter={onEnter} guesses={guesses} currentGuess={currentGuess} answer={"DODGER"}/>
+        <BoardLayout imgUrls={["url_here"]} onChar={onChar} onDelete={onDelete} onEnter={onEnter} guesses={guesses} currentGuess={currentGuess} answer={"DODGER"}/>
       </div>
     </div>
   );

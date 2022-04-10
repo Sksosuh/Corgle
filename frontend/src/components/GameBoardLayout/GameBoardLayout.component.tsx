@@ -67,7 +67,7 @@ const BoardLayout: FC<Props> = (Props) => {
     <div className='board-container'>
       <div className="imgsContainer"  onClick={ () => addModal(DescriptionModal) }>
       {Props.imgUrls.map( (imgUrl, i) => 
-        <div className="img" id={"img"+i} style={{backgroundImage: "url("+imgUrl+")"}}></div>
+        <div className={Props.imgUrls.length === 1 ? "img oneImg" : "img"} id={"img"+i} style={{backgroundImage: "url("+imgUrl+")"}}></div>
       )}
       </div>
       <div className='board'>

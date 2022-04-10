@@ -9,6 +9,9 @@
   padding: 1rem;
   cursor: pointer;
     .img {
+      &.oneImg {
+        width: 100%;
+      }
       background-position: center;
       background-size: cover;
       width: 50%;
