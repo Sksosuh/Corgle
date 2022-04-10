@@ -30,9 +30,9 @@ export const getWordOfDay = async () => {
   let index = Math.floor((now - epochMs) / msInDay);
 
 
-  const response = await API.get(String(index-1))
-  console.log(response.data)
-  return response.data
+  const response = await API.get(String(index-1));
+  console.log(response.data);
+  return response.data;
 }
 
 export const dict = getWordOfDay();

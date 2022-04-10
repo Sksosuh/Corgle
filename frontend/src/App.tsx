@@ -58,7 +58,7 @@ function App() {
     dict.then(name => {
       console.log(name['name']);
     })
-    if (currentGuess.length < 5 && guesses.length < 6) {
+    if (currentGuess.length < answer.length && guesses.length < 6) {
       setCurrentGuess(`${currentGuess}${value}`);
     }
   };
