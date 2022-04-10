@@ -1,5 +1,9 @@
 @import "./variables.scss";
 
+:root {
+  background-color: $bg-color;
+}
+
 .App {
   text-align: center;
   background-color: $bg-color;

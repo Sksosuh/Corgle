@@ -6,7 +6,7 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 import { far, faQuestionCircle, faChartBar } from '@fortawesome/free-regular-svg-icons';
 import { faCog, faTimes } from '@fortawesome/free-solid-svg-icons';
 import ModalRoot from './components/Modal/ModalRoot/ModalRoot.component';
-import { isWinningWord, dict, solution} from './Word';
+import { isWinningWord, solution} from './Word';
 import { loadGameStateFromLocalStorage, saveGameStateToLocalStorage } from './localStorage';
 import GameRow from './components/GameRows/CurrentRow.component';
 import { State } from './components/Tile/State.type';
@@ -17,9 +17,8 @@ library.add(faCog, far, faQuestionCircle, faChartBar, faChartBar, faTimes);
 
 
 function App() {
-  const answer: string = "DODGER";
-  const doggyData = {
-  }
+  const dailyDog = getWordOfDay();
+  console.log(dailyDog);
 
   const [currentGuess, setCurrentGuess] = useState('');
   const [isGameWon, setIsGameWon] = useState(false);
@@ -54,47 +53,40 @@ function App() {
   }, [isGameWon])
 
   const onChar = (value: string) => {
-    var dict = getWordOfDay();
-    dict.then(name => {
-      console.log(name['name']);
-    })
-    if (currentGuess.length < answer.length && guesses.length < 6) {
+    if (currentGuess.length < dailyDog.name.length && guesses.length < 6) {
       setCurrentGuess(`${currentGuess}${value}`);
     }
   };
   
-  
-
   const onDelete = () => {
     setCurrentGuess(currentGuess.slice(0, -1));
-    console.log("DELETE THIS SHIT")
   };
 
   const onEnter = () => {
     console.log(currentGuess);
-    if (!(currentGuess.length === answer.length)) {
+    if (!(currentGuess.length === dailyDog.name.length)) {
       setIsNotEnoughLetters(true)
       return setTimeout(() => {
         setIsNotEnoughLetters(false)
       }, 2000)
     }
 
-    // if (answer === currentGuess) {
-    //   console.log(answer + "=" + currentGuess);
-    //   setIsWordNotFoundAlertOpen(true)
-    //   return setTimeout(() => {
-    //     setIsWordNotFoundAlertOpen(false)
-    //   }, 2000)
-    // }
+    console.log(dailyDog.name)
+    if (dailyDog.name === currentGuess) {
+      console.log(dailyDog.name + "=" + currentGuess);
+      setIsWordNotFoundAlertOpen(true)
+      return setTimeout(() => {
+        setIsWordNotFoundAlertOpen(false)
+      }, 2000)
+    }
 
     const winningWord = isWinningWord(currentGuess)
 
-    if (currentGuess.length === answer.length && guesses.length < 6 && !isGameWon) {
+    if (currentGuess.length === dailyDog.name.length && guesses.length < 6 && !isGameWon) {
       setGuesses([...guesses, currentGuess])
       setCurrentGuess('')
 
       if (winningWord) {
-        console.log("winner")
         return setIsGameWon(true)
       }
 
@@ -112,7 +104,7 @@ function App() {
       <Navbar></Navbar>
       <ModalRoot/>
       <div className='game'>
-        <BoardLayout imgUrls={["url_here"]} onChar={onChar} onDelete={onDelete} onEnter={onEnter} guesses={guesses} currentGuess={currentGuess} answer={"DODGER"}/>
+        <BoardLayout imgUrls={dailyDog.media_links} onChar={onChar} onDelete={onDelete} onEnter={onEnter} guesses={guesses} currentGuess={currentGuess} answer={dailyDog.name}/>
       </div>
     </div>
   );
