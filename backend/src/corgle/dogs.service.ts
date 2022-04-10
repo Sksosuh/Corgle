@@ -2,6 +2,9 @@ import { Injectable, NotFoundException } from "@nestjs/common";
 import { Dog } from './dog.model';
 import { InjectModel} from '@nestjs/mongoose';
 import { Model } from 'mongoose';
+import { nextTick } from "process";
+import { identity } from "rxjs";
+
 
 
 @Injectable()
@@ -10,24 +13,38 @@ export class DogsService{
 
     constructor(
         @InjectModel('Dog') private readonly dogModel: Model<Dog>
-        ) {}
+      ) {}
 
     async getDogs(){
         const result = await this.dogModel.find().exec();
         console.log(result);
         return result.map(dog => ({
-            id: dog.id,
+            dogTag: dog.dogTag,
             name: dog.name,
             description: dog.description,
-            image: dog.image,
+            source_link: dog.source_link,
+            donation_link: dog.donation_link,
+            alternate_texts: dog.alternate_texts,
             rating_value: dog.rating_value,
-            rating_amount: dog.rating_amount,
+            rating_count: dog.rating_count,
         }));
     }
 
-    async getSingleDog(dogId: string){
-        const dog = await this.findDog(dogId)
-        return dog;
+    async getSingleDog(dogId: number){
+        const result = await this.dogModel.findOne({dogTag: dogId}).exec();
+        console.log("getSingleDog: %s", dogId);
+        console.log("dog: %s",result);
+        console.log("insingleDog");
+        return {
+            dogTag: result.dogTag,
+            name: result.name,
+            description: result.description,
+            source_link: result.source_link,
+            donation_link: result.donation_link,
+            alternate_texts: result.alternate_texts,
+            rating_value: result.rating_value,
+            rating_count: result.rating_count,
+        };
     }
 
     updateDog(dogId: string, name: string, desc: string, image: string, rating_value: number, rating_amount: number){
@@ -43,16 +60,33 @@ export class DogsService{
         //this.dogs[index] = updatedDog;
     }
 
-    private async findDog(id: string): Promise<Dog>{
-        let dog;
-        try { dog = await this.dogModel.findById(id).exec()
-        } catch (error){
-            throw new NotFoundException('Could not find product');
+    async randDog(counter: number){
+        const dog = await this.dogModel.findOne();
+        console.log(dog);
+        return {
+            dogTag: dog.dogTag,
+            name: dog.name,
+            description: dog.description,
+            source_link: dog.source_link,
+            donation_link: dog.donation_link,
+            alternate_texts: dog.alternate_texts,
+            rating_value: dog.rating_value,
+            rating_count: dog.rating_count,
         }
-        if (!dog){
-            throw new NotFoundException('Could not find product.');
-        }
-
-        return dog;
     }
+
+    //private async findDog(dogId: string): Promise<Dog>{
+        //let result = await this.dogModel.find({ name: "Graham" }).exec();
+        //try { 
+            //console.log(dogId);
+            //result = await this.dogModel.find({ id: dogId }).exec();
+        //} catch (error){
+            //throw new NotFoundException('Could not find product.');
+        //}
+        //if (!result){
+            //throw new NotFoundException('Could not find product.');
+        //}
+        //console.log(result);
+        //return result;
+    //}
 }
