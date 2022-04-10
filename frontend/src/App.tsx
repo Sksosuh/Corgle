@@ -1,5 +1,4 @@
-import React, { useState } from 'react';
-import logo from './logo.svg';
+import React, { useEffect, useState } from 'react';
 import './App.scss';
 import Navbar from './components/Navbar/Navbar.component';
 import BoardLayout from './components/GameBoardLayout/GameBoardLayout.component';
@@ -7,35 +6,48 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 import { far, faQuestionCircle, faChartBar } from '@fortawesome/free-regular-svg-icons';
 import { faCog } from '@fortawesome/free-solid-svg-icons';
 import ModalRoot from './components/Modal/ModalRoot/ModalRoot.component';
-import GameRow from './components/GameRows/CurrentRow.component';
-import { State } from './components/Tile/State.type';
+import { isWinningWord, solution } from './Word';
+import { loadGameStateFromLocalStorage, saveGameStateToLocalStorage } from './localStorage';
 
 library.add(faCog, far, faQuestionCircle, faChartBar, faChartBar);
 
 
 function App() {
   const answer: string = "DODGER";
-  const c: State = "correct";
-  const lettersStates = [
-    {letter: "d", state: c},
-    {letter: "o", state: c},
-    {letter: "d", state: c},
-    {letter: "g", state: c},
-    {letter: "e", state: c},
-  ];
-  const empty = [
-    {letter: ""},
-    {letter: ""},
-    {letter: ""},
-    {letter: ""},
-    {letter: ""},
-  ]
-  const [guesses, setGuesses] = useState<string[]>([]);
-  const [currentGuess, setCurrentGuess] = useState("");
+
+  const [currentGuess, setCurrentGuess] = useState('');
+  const [isGameWon, setIsGameWon] = useState(false);
+  const [isWinModalOpen, setIsWinModalOpen] = useState(false);
+  const [isInfoModalOpen, setIsInfoModalOpen] = useState(false);
+  const [isAboutModalOpen, setIsAboutModalOpen] = useState(false);
+  const [isNotEnoughLetters, setIsNotEnoughLetters] = useState(false);
+  const [isStatsModalOpen, setIsStatsModalOpen] = useState(false);
+  const [isWordNotFoundAlertOpen, setIsWordNotFoundAlertOpen] = useState(false);
+  const [isGameLost, setIsGameLost] = useState(false);
+  const [shareComplete, setShareComplete] = useState(false);
+  const [guesses, setGuesses] = useState<string[]>(() => {
+    const loaded = loadGameStateFromLocalStorage()
+    if (loaded?.solution !== solution) {
+      return []
+    }
+    if (loaded.guesses.includes(solution)) {
+      setIsGameWon(true)
+    }
+    return loaded.guesses
+  });
+
+  useEffect(() => {
+    saveGameStateToLocalStorage({ guesses, solution })
+  }, [guesses])
+
+  useEffect(() => {
+    if (isGameWon) {
+      setIsWinModalOpen(true)
+    }
+  }, [isGameWon])
 
   const onChar = (value: string) => {
-    console.log(value);
-    if (currentGuess.length < 5 && guesses.length < 6) {
+    if (currentGuess.length < answer.length && guesses.length < 6) {
       setCurrentGuess(`${currentGuess}${value}`);
     }
   };
@@ -46,13 +58,41 @@ function App() {
   };
 
   const onEnter = () => {
-    // if (!(currentGuess.length === answer.length)) {
-    //   setIsNotEnoughLetters(true)
-    //   return setTimeout(() => {
-    //     setIsNotEnoughLetters(false)
-    //   }, 2000)
-    console.log("enter :)");
+    console.log(currentGuess);
+    if (!(currentGuess.length === answer.length)) {
+      setIsNotEnoughLetters(true)
+      return setTimeout(() => {
+        setIsNotEnoughLetters(false)
+      }, 2000)
     }
+
+    // if (answer === currentGuess) {
+    //   console.log(answer + "=" + currentGuess);
+    //   setIsWordNotFoundAlertOpen(true)
+    //   return setTimeout(() => {
+    //     setIsWordNotFoundAlertOpen(false)
+    //   }, 2000)
+    // }
+
+    const winningWord = isWinningWord(currentGuess)
+
+    if (currentGuess.length === answer.length && guesses.length < 6 && !isGameWon) {
+      setGuesses([...guesses, currentGuess])
+      setCurrentGuess('')
+
+      if (winningWord) {
+        console.log("winner")
+        return setIsGameWon(true)
+      }
+
+      if (guesses.length === 6) {
+        setIsGameLost(true)
+        return setTimeout(() => {
+          setIsGameLost(false)
+        }, 2000)
+      }
+    }
+  }
 
   return (
     <div className='App'>
