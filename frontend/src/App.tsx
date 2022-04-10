@@ -5,12 +5,12 @@ import Navbar from './components/Navbar/Navbar.component';
 import BoardLayout from './components/GameBoardLayout/GameBoardLayout.component';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { far, faQuestionCircle, faChartBar } from '@fortawesome/free-regular-svg-icons';
-import { faCog } from '@fortawesome/free-solid-svg-icons';
+import { faCog, faTimes } from '@fortawesome/free-solid-svg-icons';
 import ModalRoot from './components/Modal/ModalRoot/ModalRoot.component';
 import GameRow from './components/GameRow/GameRow.component';
 import { State } from './components/Tile/State.type';
 
-library.add(faCog, far, faQuestionCircle, faChartBar, faChartBar);
+library.add(faCog, far, faQuestionCircle, faChartBar, faChartBar, faTimes);
 
 
 function App() {
@@ -35,7 +35,7 @@ function App() {
       <Navbar></Navbar>
       <ModalRoot/>
       <div className='game'>
-        <BoardLayout></BoardLayout>
+        <BoardLayout imgUrls={["https://pbs.twimg.com/media/FK2v7tKVgAAOfQh.jpg", "https://pbs.twimg.com/media/FK2v7tKVgAAOfQh.jpg","https://pbs.twimg.com/media/FK2v7tKVgAAOfQh.jpg","https://pbs.twimg.com/media/FK2v7tKVgAAOfQh.jpg"]}></BoardLayout>
       </div>
     </div>
   );

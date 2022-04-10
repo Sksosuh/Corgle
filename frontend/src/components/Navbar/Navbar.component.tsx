@@ -16,7 +16,7 @@ const Navbar: FC = () => {
       <div className="menuLeft">
         <button onClick={ () => addModal(HowToModal) }><FontAwesomeIcon icon={['far', 'question-circle']}/></button> 
       </div>
-      <div className="title">Corgle
+      <div className="title">CORGLE
       </div>
       <div className="menuRight">
         <button onClick={ () => addModal(StatsModal) }><FontAwesomeIcon icon={['far', 'chart-bar']}/></button> 

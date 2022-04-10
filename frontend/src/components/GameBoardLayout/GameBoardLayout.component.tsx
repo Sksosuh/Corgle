@@ -1,13 +1,17 @@
 import {FC} from "react"; 
 import GameRow from "../GameRow/GameRow.component";
+import DescriptionModal from "../Modal/DescriptionModal/DescriptionModal.component";
+import ModalService from '../../services/ModalService';
 import { State } from "../Tile/State.type";
 import './GameBoardLayout.scss';
 
 interface Props {
-  imgUrl: string
+  imgUrls: string[]
 }
-
-const BoardLayout: FC = () => {
+const addModal = (modalType: FC<any>) => {
+  ModalService.open(modalType);
+};
+const BoardLayout: FC<Props> = (Props) => {
   const c: State = "correct";
   const lettersStates = [
     {letter: "d", state: c},
@@ -25,11 +29,10 @@ const BoardLayout: FC = () => {
   ];
   return (
     <div className='board-container'>
-      <div className="imgsContainer">
-        <div className='one'></div>
-        <div className='two'></div>
-        <div className='three'></div>
-        <div className='four'></div>
+      <div className="imgsContainer"  onClick={ () => addModal(DescriptionModal) }>
+      {Props.imgUrls.map( (imgUrl, i) => 
+        <div className="img" id={"img"+i} style={{backgroundImage: "url("+imgUrl+")"}}></div>
+      )}
       </div>
       <div className='board'>
         <GameRow tiles={lettersStates}></GameRow> 
@@ -44,8 +47,3 @@ const BoardLayout: FC = () => {
 }
 
 export default BoardLayout;
-
-/*<div class="BoardLayout">
-  <div class="content">
-  </div>
-</div>*/
