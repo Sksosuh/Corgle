@@ -54,8 +54,7 @@ const BoardLayout: FC<Props> = (Props) => {
     };
   }, [onEnter, onDelete, onChar]);
 
-  const empties = Props.guesses.length < Props.answer.length ? Array.from(Array(Props.answer.length - Props.guesses.length)) : []
-
+  const empties = Props.guesses.length < Props.answer.length - 1 ? Array.from(Array(Props.answer.length - 1 - Props.guesses.length)) : []
   return (
     <div className='board-container'>
       <div className="imgsContainer">
