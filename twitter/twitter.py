@@ -25,7 +25,7 @@ TWITTER_USERNAME = "dog_rates"
 
 class Dog:
   def __init__(self,tweet,media):
-    self.id = tweet.id
+    self.dog_tag = tweet.id
     self.name, self.description, self.source_link, self.donation_link = self.parse_text(tweet.text)
     self.media_links, self.alternate_texts = self.parse_media(tweet.attachments["media_keys"],media)
     self.rating_value = 0
@@ -123,7 +123,7 @@ while page_token != -1:
 random.shuffle(doggos)
 #Set new IDs for mongo DB compatibility
 for index, dog in enumerate(doggos):
-  dog["id"] = index
+  dog["dog_tag"] = index
 
 #Write our doggos to a json file to be loaded into the database
 with open(OUTPUT_JSON, "w") as f:
