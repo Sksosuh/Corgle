@@ -6,14 +6,20 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 import { far, faQuestionCircle, faChartBar } from '@fortawesome/free-regular-svg-icons';
 import { faCog, faTimes } from '@fortawesome/free-solid-svg-icons';
 import ModalRoot from './components/Modal/ModalRoot/ModalRoot.component';
-import { isWinningWord, solution } from './Word';
+import { isWinningWord, dict, solution} from './Word';
 import { loadGameStateFromLocalStorage, saveGameStateToLocalStorage } from './localStorage';
+import GameRow from './components/GameRows/CurrentRow.component';
+import { State } from './components/Tile/State.type';
+import { getWordOfDay } from './Word';
 
 library.add(faCog, far, faQuestionCircle, faChartBar, faChartBar, faTimes);
 
 
+
 function App() {
   const answer: string = "DODGER";
+  const doggyData = {
+  }
 
   const [currentGuess, setCurrentGuess] = useState('');
   const [isGameWon, setIsGameWon] = useState(false);
@@ -25,6 +31,7 @@ function App() {
   const [isWordNotFoundAlertOpen, setIsWordNotFoundAlertOpen] = useState(false);
   const [isGameLost, setIsGameLost] = useState(false);
   const [shareComplete, setShareComplete] = useState(false);
+
   const [guesses, setGuesses] = useState<string[]>(() => {
     const loaded = loadGameStateFromLocalStorage()
     if (loaded?.solution !== solution) {
@@ -47,10 +54,16 @@ function App() {
   }, [isGameWon])
 
   const onChar = (value: string) => {
-    if (currentGuess.length < answer.length && guesses.length < 6) {
+    var dict = getWordOfDay();
+    dict.then(name => {
+      console.log(name['name']);
+    })
+    if (currentGuess.length < 5 && guesses.length < 6) {
       setCurrentGuess(`${currentGuess}${value}`);
     }
   };
+  
+  
 
   const onDelete = () => {
     setCurrentGuess(currentGuess.slice(0, -1));
