@@ -22,7 +22,6 @@ const CompletedRow: FC<Props> = (Props) => {
       ))}
     </div>
   );
-
 }
 
 export default CompletedRow;

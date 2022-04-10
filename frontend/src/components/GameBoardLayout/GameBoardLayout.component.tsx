@@ -4,6 +4,7 @@ import CompletedRow from "../GameRows/CompletedRow.component";
 import EmptyRow from "../GameRows/EmptyRow.component";
 import { State } from "../Tile/State.type";
 import './GameBoardLayout.scss';
+import { CharState } from "../GameRows/CharTypes.type";
 
 interface Props {
   imgUrl: string
@@ -15,24 +16,11 @@ interface Props {
   currentGuess: string
   answer: string
 }
-
 const BoardLayout: FC<Props> = (Props) => {
-  const c: State = "correct";
-  const lettersStates = [
-    {letter: "d", state: c},
-    {letter: "o", state: c},
-    {letter: "d", state: c},
-    {letter: "g", state: c},
-    {letter: "e", state: c},
-  ];
-  const empty = [
-    {letter: ""},
-    {letter: ""},
-    {letter: ""},
-    {letter: ""},
-    {letter: ""},
-  ];
-  type KeyValue = "ENTER" | "DELETE";
+
+  const { onEnter, onDelete, onChar } = Props;
+  type KeyValue = CharState | "ENTER" | "DELETE";
+
   const onClick = (value: KeyValue) => {
     if (value === "ENTER") {
       return Props.onEnter();
@@ -50,13 +38,13 @@ const BoardLayout: FC<Props> = (Props) => {
   useEffect(() => {
     const listener = (e:KeyboardEvent) => {
       if(e.code === "Enter") {
-        Props.onEnter();
+        onEnter();
       } else if(e.code === "Backspace") {
-        Props.onDelete();
+        onDelete();
       } else {
         const key = e.key.toUpperCase();
         if(key.length === 1 && key >= "A" && key <= "Z") {
-          Props.onChar(key);
+          onChar(key);
         }
       }
     };
@@ -64,7 +52,7 @@ const BoardLayout: FC<Props> = (Props) => {
     return () => {
       window.removeEventListener("keyup", listener);
     };
-  }, [Props.onEnter,Props. onDelete, Props.onChar]);
+  }, [onEnter, onDelete, onChar]);
 
   const empties = Props.guesses.length < 5 ? Array.from(Array(5 - Props.guesses.length)) : []
 

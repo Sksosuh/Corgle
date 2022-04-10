@@ -14,6 +14,7 @@ library.add(faCog, far, faQuestionCircle, faChartBar, faChartBar);
 
 
 function App() {
+  const answer: string = "DODGER";
   const c: State = "correct";
   const lettersStates = [
     {letter: "d", state: c},
@@ -45,6 +46,11 @@ function App() {
   };
 
   const onEnter = () => {
+    // if (!(currentGuess.length === answer.length)) {
+    //   setIsNotEnoughLetters(true)
+    //   return setTimeout(() => {
+    //     setIsNotEnoughLetters(false)
+    //   }, 2000)
     console.log("enter :)");
     }
 
