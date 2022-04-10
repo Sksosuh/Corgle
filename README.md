@@ -1,5 +1,7 @@
 ![Corgle Logo](corgle.png)
 
+Application is currently live at [corgle.tech!](http://www.corgle.tech)
+
 ## Inspiration
 Dogs are almost universally loved, and the same goes for Wordle. We wanted to combine these two to create a game to improve mental wellness. Corgle is a low-stress way for users to enjoy some cute dogs while also gaining fulfillment from completing a short game. 
 
