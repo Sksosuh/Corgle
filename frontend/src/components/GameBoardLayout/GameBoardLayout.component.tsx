@@ -8,10 +8,6 @@ import { State } from "../Tile/State.type";
 import './GameBoardLayout.scss';
 import { CharState } from "../GameRows/CharTypes.type";
 
-interface Props {
-  description: string
-  imgUrls: string[]
-}
 const addModal = (modalType: FC<any>) => {
   ModalService.open(modalType);
 };
@@ -24,6 +20,8 @@ isRevealing?: boolean,
 guesses: string[],
 currentGuess: string
 answer: string
+description: string
+guessAmount: number
 }
 const BoardLayout: FC<Props> = (Props) => {
 
@@ -63,7 +61,9 @@ const BoardLayout: FC<Props> = (Props) => {
     };
   }, [onEnter, onDelete, onChar]);
 
-  const empties = Props.guesses.length < Props.answer.length - 1 ? Array.from(Array(Props.answer.length - 1 - Props.guesses.length)) : []
+  // default number of guesses should be 5. More guesses if  name is longer than 
+  const empties: Array<string> = Props.guesses.length < Props.guessAmount - 1 ? Array.from(Array(Props.guessAmount - 1 - Props.guesses.length)) : []
+  console.log(empties.length);
   return (
     <div className='board-container'>
       <div className="imgsContainer"  onClick={ () => addModal(DescriptionModal) }>
@@ -75,7 +75,7 @@ const BoardLayout: FC<Props> = (Props) => {
       {Props.guesses.map((guess, i) => (
         <CompletedRow key={i} guess={guess} answer={Props.answer} />
       ))}
-      {Props.guesses.length < 6 && <CurrentRow answer={Props.answer} guess={Props.currentGuess} />}
+      {Props.guesses.length < Props.guessAmount && <CurrentRow answer={Props.answer} guess={Props.currentGuess} />}
       {empties.map((_, i) => (
         <EmptyRow key={i} answer={Props.answer}/>
       ))}

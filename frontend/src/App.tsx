@@ -18,6 +18,7 @@ library.add(faCog, far, faQuestionCircle, faChartBar, faChartBar, faTimes);
 
 function App() {
   const dailyDog = getWordOfDay();
+  const guessAmount: number = dailyDog.name.length > 6 ? dailyDog.name.length + 1 : 6;
   console.log(dailyDog);
 
   const [currentGuess, setCurrentGuess] = useState('');
@@ -53,7 +54,7 @@ function App() {
   }, [isGameWon])
 
   const onChar = (value: string) => {
-    if (currentGuess.length < dailyDog.name.length && guesses.length < 6) {
+    if (currentGuess.length < dailyDog.name.length && guesses.length < guessAmount) {
       setCurrentGuess(`${currentGuess}${value}`);
     }
   };
@@ -63,7 +64,6 @@ function App() {
   };
 
   const onEnter = () => {
-    console.log(currentGuess);
     if (!(currentGuess.length === dailyDog.name.length)) {
       setIsNotEnoughLetters(true)
       return setTimeout(() => {
@@ -71,7 +71,6 @@ function App() {
       }, 2000)
     }
 
-    console.log(dailyDog.name)
     if (dailyDog.name === currentGuess) {
       console.log(dailyDog.name + "=" + currentGuess);
       setIsWordNotFoundAlertOpen(true)
@@ -82,7 +81,8 @@ function App() {
 
     const winningWord = isWinningWord(currentGuess)
 
-    if (currentGuess.length === dailyDog.name.length && guesses.length < 6 && !isGameWon) {
+
+    if (currentGuess.length === dailyDog.name.length && guesses.length < guessAmount && !isGameWon) {
       setGuesses([...guesses, currentGuess])
       setCurrentGuess('')
 
@@ -90,7 +90,7 @@ function App() {
         return setIsGameWon(true)
       }
 
-      if (guesses.length === 6) {
+      if (guesses.length ===  guessAmount) {
         setIsGameLost(true)
         return setTimeout(() => {
           setIsGameLost(false)
@@ -104,7 +104,7 @@ function App() {
       <Navbar></Navbar>
       <ModalRoot/>
       <div className='game'>
-        <BoardLayout imgUrls={dailyDog.media_links} onChar={onChar} onDelete={onDelete} onEnter={onEnter} guesses={guesses} currentGuess={currentGuess} answer={dailyDog.name} description={dailyDog.description}/>
+        <BoardLayout imgUrls={dailyDog.media_links} onChar={onChar} onDelete={onDelete} onEnter={onEnter} guesses={guesses} currentGuess={currentGuess} answer={dailyDog.name} description={dailyDog.description} guessAmount={guessAmount}/>
       </div>
     </div>
   );
